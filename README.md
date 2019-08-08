@@ -2,6 +2,8 @@
 
 This is where the [Party](https://github.com/vam-community/vam-party) package manager will get the list of all scripts.
 
+This repository and the maintainers are not affiliated in any way with Virt-A-Mate or its developers.
+
 ## How to add a new script
 
 First, make sure it has been uploaded to your own GitHub account. Note that even though other servers are supported, they will be marked as untrusted in order to protect users privacy.
