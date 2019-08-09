@@ -1,5 +1,7 @@
 # Virt-A-Mate Scripts Registry
 
+[![Build Status](https://travis-ci.org/vam-community/vam-registry.svg?branch=master)](https://travis-ci.org/vam-community/vam-registry)
+
 This is where the [Party](https://github.com/vam-community/vam-party) package manager will get the list of all scripts.
 
 This repository and the maintainers are not affiliated in any way with Virt-A-Mate or its developers.
