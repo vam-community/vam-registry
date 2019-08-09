@@ -1,0 +1,149 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/vam-community/vam-registry/blob/master/v1/schema.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": ["scripts"],
+  "properties": {
+    "scripts": {
+      "$id": "#/properties/scripts",
+      "type": "array",
+      "title": "The Scripts Schema",
+      "items": {
+        "$id": "#/properties/scripts/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": ["name", "author", "homepage", "repository", "versions"],
+        "properties": {
+          "name": {
+            "$id": "#/properties/scripts/items/properties/name",
+            "type": "string",
+            "title": "The Name Schema",
+            "default": "",
+            "examples": ["improved-pov"],
+            "pattern": "^(.*)$"
+          },
+          "author": {
+            "$id": "#/properties/scripts/items/properties/author",
+            "type": "object",
+            "title": "The Author Schema",
+            "required": ["name", "profile"],
+            "properties": {
+              "name": {
+                "$id": "#/properties/scripts/items/properties/author/properties/name",
+                "type": "string",
+                "title": "The Name Schema",
+                "default": "",
+                "examples": ["acidbubbles"],
+                "pattern": "^(.*)$"
+              },
+              "profile": {
+                "$id": "#/properties/scripts/items/properties/author/properties/profile",
+                "type": "string",
+                "title": "The Profile Schema",
+                "default": "",
+                "examples": ["https://github.com/acidbubbles"],
+                "pattern": "^(.*)$"
+              }
+            }
+          },
+          "homepage": {
+            "$id": "#/properties/scripts/items/properties/homepage",
+            "type": "string",
+            "title": "The Homepage Schema",
+            "default": "",
+            "examples": ["https://github.com/acidbubbles/vam-improved-pov"],
+            "pattern": "^(.*)$"
+          },
+          "repository": {
+            "$id": "#/properties/scripts/items/properties/repository",
+            "type": "string",
+            "title": "The Repository Schema",
+            "default": "",
+            "examples": ["https://github.com/acidbubbles/vam-improved-pov"],
+            "pattern": "^(.*)$"
+          },
+          "versions": {
+            "$id": "#/properties/scripts/items/properties/versions",
+            "type": "array",
+            "title": "The Versions Schema",
+            "items": {
+              "$id": "#/properties/scripts/items/properties/versions/items",
+              "type": "object",
+              "title": "The Items Schema",
+              "required": ["version", "files"],
+              "properties": {
+                "version": {
+                  "$id": "#/properties/scripts/items/properties/versions/items/properties/version",
+                  "type": "string",
+                  "title": "The Version Schema",
+                  "default": "",
+                  "examples": ["2.0.4"],
+                  "pattern": "^(.*)$"
+                },
+                "files": {
+                  "$id": "#/properties/scripts/items/properties/versions/items/properties/files",
+                  "type": "array",
+                  "title": "The Files Schema",
+                  "items": {
+                    "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items",
+                    "type": "object",
+                    "title": "The Items Schema",
+                    "required": ["filename", "url", "hash"],
+                    "properties": {
+                      "filename": {
+                        "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/filename",
+                        "type": "string",
+                        "title": "The Filename Schema",
+                        "default": "",
+                        "examples": ["ImprovedPoV.cs"],
+                        "pattern": "^(.*)$"
+                      },
+                      "url": {
+                        "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/url",
+                        "type": "string",
+                        "title": "The Url Schema",
+                        "default": "",
+                        "examples": [
+                          "https://github.com/acidbubbles/vam-improved-pov/releases/download/v2.0.4/ImprovedPoV.cs"
+                        ],
+                        "pattern": "^(.*)$"
+                      },
+                      "hash": {
+                        "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/hash",
+                        "type": "object",
+                        "title": "The Hash Schema",
+                        "required": ["type", "value"],
+                        "properties": {
+                          "type": {
+                            "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/hash/properties/type",
+                            "type": "string",
+                            "title": "The Type Schema",
+                            "default": "",
+                            "examples": ["sha256"],
+                            "pattern": "^(.*)$"
+                          },
+                          "value": {
+                            "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/hash/properties/value",
+                            "type": "string",
+                            "title": "The Value Schema",
+                            "default": "",
+                            "examples": [
+                              "48AB1147B6B3EF9B017C1CEF25B2F1C2DDC2C950C90CE05BFBBA2C31C90F2D31"
+                            ],
+                            "pattern": "^(.*)$"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

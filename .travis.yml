@@ -2,6 +2,7 @@ language: node_js
 sudo: false
 before_script:
   - npm install -g jsonlint
+  - npm install -g ajv-cli
 script:
   - jsonlint -q v1/index.json
-
+  - ajv -s v1/schema.json -d v1/index.json
