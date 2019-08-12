@@ -2,8 +2,10 @@
   "scripts": [
     {
       "name": "improved-pov",
+      "description": "Improved PoV (Point of View) camera handling in Virt-A-Mate ",
+      "tags": ["possession", "person"],
       "author": {
-        "name": "acidbubbles",
+        "name": "Acidbubbles",
         "profile": "https://github.com/acidbubbles"
       },
       "homepage": "https://github.com/acidbubbles/vam-improved-pov",

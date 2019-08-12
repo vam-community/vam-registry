@@ -1,7 +1,7 @@
 {
   "definitions": {},
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/vam-community/vam-registry/blob/master/v1/schema.json",
+  "$id": "http://example.com/root.json",
   "type": "object",
   "title": "The Root Schema",
   "required": ["scripts"],
@@ -14,7 +14,15 @@
         "$id": "#/properties/scripts/items",
         "type": "object",
         "title": "The Items Schema",
-        "required": ["name", "author", "homepage", "repository", "versions"],
+        "required": [
+          "name",
+          "description",
+          "tags",
+          "author",
+          "homepage",
+          "repository",
+          "versions"
+        ],
         "properties": {
           "name": {
             "$id": "#/properties/scripts/items/properties/name",
@@ -23,6 +31,27 @@
             "default": "",
             "examples": ["improved-pov"],
             "pattern": "^(.*)$"
+          },
+          "description": {
+            "$id": "#/properties/scripts/items/properties/description",
+            "type": "string",
+            "title": "The Description Schema",
+            "default": "",
+            "examples": [""],
+            "pattern": "^(.*)$"
+          },
+          "tags": {
+            "$id": "#/properties/scripts/items/properties/tags",
+            "type": "array",
+            "title": "The Tags Schema",
+            "items": {
+              "$id": "#/properties/scripts/items/properties/tags/items",
+              "type": "string",
+              "title": "The Items Schema",
+              "default": "",
+              "examples": ["possession", "person"],
+              "pattern": "^(.*)$"
+            }
           },
           "author": {
             "$id": "#/properties/scripts/items/properties/author",
@@ -35,7 +64,7 @@
                 "type": "string",
                 "title": "The Name Schema",
                 "default": "",
-                "examples": ["acidbubbles"],
+                "examples": ["Acidbubbles"],
                 "pattern": "^(.*)$"
               },
               "profile": {
