@@ -15,52 +15,13 @@ Once uploaded, you'll need to get their download URL Go on https://github.com an
 - If you use releases: Go in releases, find the release you want, and right-click, copy link address.
 - If you don't use releases: [Select your commit, and Browse files](https://stackoverflow.com/questions/4004860/link-to-a-specific-current-revision-on-github). Then, select the file you want to include, and right-click, copy link address on the Raw button.
 
-Run `party package Path\To\Script` to get the list of files and their hash. This will get you a JSON like this:
+Run `party publish Path\To\MyScript.cs` to get the list of files and their hash. This will get you a JSON template that you can fill.
 
-```json
-{
-  "files": [
-    {
-      "filename": "MyScript.cs",
-      "url": "",
-      "hash": {
-        "type": "sha256",
-        "value": "0000000000000000000000000000000000000000000000000000000000000000"
-      }
-    }
-  ]
-}
-```
-
-Replace the `url` with the one you got before.
-
-Now that we have the list of files, we need to create the new script.
+Replace the `url` with the one you got before, as well as all other fields (author name, homepage, etc).
 
 First, fork and clone the https://github.com/vam-community/vam-registry.
 
 You can now add your plugin to the list.
-
-Here's a template to get you started:
-
-```json
-{
-  "name": "your-plugin-name",
-  "author": {
-    "name": "your-username",
-    "profile": "https://github.com/your-username"
-  },
-  "homepage": "https://github.com/your-username/your-plugin-name",
-  "repository": "https://github.com/your-username/your-plugin-name",
-  "versions": [
-    {
-      "version": "2.0.4",
-      "files": [
-        /* The files retrieved before */
-      ]
-    }
-  ]
-}
-```
 
 You can add your script anywhere, as long as it's somewhere in the list.
 
