@@ -2,7 +2,7 @@
   "scripts": [
     {
       "name": "improved-pov",
-      "description": "Improved PoV (Point of View) camera handling in Virt-A-Mate ",
+      "description": "Improved PoV (Point of View) camera handling in Virt-A-Mate",
       "tags": ["possession", "person"],
       "author": {
         "name": "Acidbubbles",
@@ -20,6 +20,40 @@
               "hash": {
                 "type": "sha256",
                 "value": "814E416E6D2F517A35ADFE21CBD9589BC9D8BE9C9911AABA97B40578C9EECCA6"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "director",
+      "description": "Sequence camera angles using an animation pattern",
+      "tags": ["animation", "camera"],
+      "author": {
+        "name": "Acidbubbles",
+        "profile": "https://github.com/acidbubbles"
+      },
+      "homepage": "https://www.reddit.com/r/VAMscenes/comments/ckyrbe/director_plugin_camera_angle_sequence_for_a/",
+      "repository": "https://github.com/acidbubbles/vam-director",
+      "versions": [
+        {
+          "version": "1.0.1",
+          "files": [
+            {
+              "filename": "Director.cs",
+              "url": "https://github.com/acidbubbles/vam-director/releases/download/v1.0.1/Director.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "070C0F2434A1DEAF2E190B54061B670EBC4BFA3137C2DB1C4F6B81AD14F59579"
+              }
+            },
+            {
+              "filename": "DirectorStep.cs",
+              "url": "https://github.com/acidbubbles/vam-director/releases/download/v1.0.1/DirectorStep.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "A77513378D05E7480C6421B764FD50D08FFFA15B8B539394ECFADF3F36188E3E"
               }
             }
           ]
