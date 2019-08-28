@@ -8,25 +8,35 @@ This repository and the maintainers are not affiliated in any way with Virt-A-Ma
 
 ## How to add a new script
 
-First, make sure it has been uploaded to your own GitHub account. Note that even though other servers are supported, they will be marked as untrusted in order to protect users privacy.
+You first need to [Create a repository](https://help.github.com/en/articles/create-a-repo) and [Push](https://help.github.com/en/articles/pushing-commits-to-a-remote-repository) your script on it. _Note that even though other servers are supported, they will be marked as untrusted in order to protect users privacy._
 
-Once uploaded, you'll need to get their download URL Go on https://github.com and open your repository. We want a URL that will not change when you modify your plugin later.
+Once your script has been uploaded, you'll need to get their download URL. We want a URL that will not change when you modify your plugin later, so you have two options:
 
-- If you use releases: Go in releases, find the release you want, and right-click, copy link address.
-- If you don't use releases: [Select your commit, and Browse files](https://stackoverflow.com/questions/4004860/link-to-a-specific-current-revision-on-github). Then, select the file you want to include, and right-click, copy link address on the Raw button.
+1. **Using GitHub releases**: Go in your repository's [releases](https://help.github.com/en/articles/creating-releases), find the release you want, and right-click, copy link address.
+2. **Using files directly in a commit**: [Select your commit, and Browse files](https://stackoverflow.com/questions/4004860/link-to-a-specific-current-revision-on-github). Then, select the file you want to include, then right-click and select the `copy link address` option on the `Raw` button.
 
-Run `party publish Path\To\MyScript.cs` to get the list of files and their hash. This will get you a JSON template that you can fill.
+You can then proceed with adding your script to the registry!
 
-Replace the `url` with the one you got before, as well as all other fields (author name, homepage, etc).
+1. Install [Party](https://github.com/vam-community/vam-party) if you don't have it already.
+2. [Clone](https://help.github.com/en/articles/cloning-a-repository) this repository to your machine (if you already cloned it, make sure to [Pull](https://help.github.com/en/articles/getting-changes-from-a-remote-repository) to get the latest version)
+3. Run `party publish Path\To\MyScript.cs --registry Path\To\Cloned\Registry\v1\index.json`.
+4. [Fork](https://help.github.com/en/articles/fork-a-repo) the [vam-registry](https://github.com/vam-community/vam-registry) repository in your own account and [Push](https://help.github.com/en/articles/pushing-commits-to-a-remote-repository) your changes to it
+5. [Create a Pull Request](https://help.github.com/en/articles/creating-a-pull-request), and if everything looks fine, someone will approve it and merge it.
+6. Brag about it! You can tell your users to download your script using `party get your-super-script`.
 
-First, fork and clone the https://github.com/vam-community/vam-registry.
+## Versioning
 
-You can now add your plugin to the list.
+Please follow the [Semantic Versioning (semver)](https://semver.org/) when selecting version numbers for your scripts. This will ensure users are aware when a new version of your script introduces breaking changes. In a nutshell:
 
-You can add your script anywhere, as long as it's somewhere in the list.
+- Increase the PATCH version when you fix bugs (e.g. `1.0.0` to `1.0.1`)
+- Increase the MINOR version when you introduce new functionality (e.g. `1.0.1` to `1.1.0`)
+- Increase the MAJOR version when you introduce breaking changes (e.g. `1.1.0` to `2.0.0`)
 
-You also need to make sure your JSON is valid, and formatted correctly! You can use [VSCode](https://code.visualstudio.com/) to do that (open the `index.json` file, and <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>p</kbd>, format, enter).
+## Why
 
-You can finally push your changes and open a pull request. You can find more about opening pull requests here: [Creating a pull request](https://help.github.com/en/articles/creating-a-pull-request).
+Using GitHub likes this makes multiple garantees:
 
-This process will eventually be made easier, but for now this will allow high security, low maintenance and high transparency. In the event this registry becomes popular, a dedicated server with authentication will replace it.
+- Your privacy is protected, since no one can see who access GitHub
+- A minimum level of quality, since everything will be approved and there's a small barrier to entry
+- Excellent speed and uptime provided by GitHub servers
+- Zero cost for the registry maintainers (except the time to maintain it)
