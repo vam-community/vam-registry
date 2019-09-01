@@ -37,7 +37,9 @@
             "type": "string",
             "title": "The Description Schema",
             "default": "",
-            "examples": [""],
+            "examples": [
+              "Improved PoV (Point of View) camera handling in Virt-A-Mate"
+            ],
             "pattern": "^(.*)$"
           },
           "tags": {
@@ -82,7 +84,9 @@
             "type": "string",
             "title": "The Homepage Schema",
             "default": "",
-            "examples": ["https://github.com/acidbubbles/vam-improved-pov"],
+            "examples": [
+              "https://www.reddit.com/r/VAMscenes/comments/c8x6a2/improved_pov_20_possession_mode_feels_better_than/"
+            ],
             "pattern": "^(.*)$"
           },
           "repository": {
@@ -101,7 +105,7 @@
               "$id": "#/properties/scripts/items/properties/versions/items",
               "type": "object",
               "title": "The Items Schema",
-              "required": ["version", "files"],
+              "required": ["version", "created", "files"],
               "properties": {
                 "version": {
                   "$id": "#/properties/scripts/items/properties/versions/items/properties/version",
@@ -109,6 +113,14 @@
                   "title": "The Version Schema",
                   "default": "",
                   "examples": ["2.0.4"],
+                  "pattern": "^(.*)$"
+                },
+                "created": {
+                  "$id": "#/properties/scripts/items/properties/versions/items/properties/created",
+                  "type": "string",
+                  "title": "The Created Schema",
+                  "default": "",
+                  "examples": ["2019-07-31"],
                   "pattern": "^(.*)$"
                 },
                 "files": {
@@ -159,7 +171,7 @@
                             "title": "The Value Schema",
                             "default": "",
                             "examples": [
-                              "48AB1147B6B3EF9B017C1CEF25B2F1C2DDC2C950C90CE05BFBBA2C31C90F2D31"
+                              "814E416E6D2F517A35ADFE21CBD9589BC9D8BE9C9911AABA97B40578C9EECCA6"
                             ],
                             "pattern": "^(.*)$"
                           }

@@ -13,6 +13,7 @@
       "versions": [
         {
           "version": "2.0.4",
+          "created": "2019-07-31",
           "files": [
             {
               "filename": "ImprovedPoV.cs",
@@ -20,6 +21,29 @@
               "hash": {
                 "type": "sha256",
                 "value": "814E416E6D2F517A35ADFE21CBD9589BC9D8BE9C9911AABA97B40578C9EECCA6"
+              }
+            }
+          ]
+        },
+        {
+          "version": "1.0.0",
+          "created": "2019-06-23",
+          "notes": "The first official version of Improved PoV for Virt-a-Mate!",
+          "files": [
+            {
+              "filename": "ImprovedPoV_Mirror.cs",
+              "url": "https://github.com/acidbubbles/vam-improved-pov/releases/download/v1.0.0/ImprovedPoV_Mirror.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "5C1AE9DC45A96A2D1D5965AADC48EBB372E53F4E9B70A0791CFF0D083885AAE7"
+              }
+            },
+            {
+              "filename": "ImprovedPoV_Person.cs",
+              "url": "https://github.com/acidbubbles/vam-improved-pov/releases/download/v1.0.0/ImprovedPoV_Person.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "7A1A17DCBC2D3767F666F6BC11CBDAA089BA9F77B5EA6A3569B5A1F43309D3F6"
               }
             }
           ]
@@ -39,6 +63,8 @@
       "versions": [
         {
           "version": "1.0.1",
+          "created": "2019-07-30",
+          "notes": "The first official version of Improved PoV for Virt-a-Mate!",
           "files": [
             {
               "filename": "Director.cs",
