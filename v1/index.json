@@ -1,4 +1,11 @@
 {
+  "authors": [
+    {
+      "name": "Acidbubbles",
+      "reddit": "https://www.reddit.com/user/acidbubbles/",
+      "github": "https://github.com/acidbubbles"
+    }
+  ],
   "scripts": [
     {
       "name": "director",
@@ -10,8 +17,8 @@
       "versions": [
         {
           "version": "1.0.1",
-          "created": "2019-07-30",
-          "notes": "The first official version of Improved PoV for Virt-a-Mate!",
+          "created": "2019-07-31",
+          "notes": "No hologrid on scale, next/previous fix",
           "files": [
             {
               "filename": "Director.cs",
@@ -27,6 +34,29 @@
               "hash": {
                 "type": "sha256",
                 "value": "A77513378D05E7480C6421B764FD50D08FFFA15B8B539394ECFADF3F36188E3E"
+              }
+            }
+          ]
+        },
+        {
+          "version": "1.0.0",
+          "created": "2019-07-30",
+          "notes": "use animation pattern, transitios, passenger integration, more",
+          "files": [
+            {
+              "filename": "Director.cs",
+              "url": "https://github.com/acidbubbles/vam-director/releases/download/v1.0.0/Director.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "97E964B7B87A0C6F4000113016EE16E7E83358812EC961F7E6373C70D513D1C5"
+              }
+            },
+            {
+              "filename": "DirectorStep.cs",
+              "url": "https://github.com/acidbubbles/vam-director/releases/download/v1.0.0/DirectorStep.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "3BBC524314202ECEB7F4C34EE68B15773622494256A43AD117ED6089C043B7E8"
               }
             }
           ]
@@ -57,7 +87,7 @@
         },
         {
           "version": "2.0.3",
-          "created": "2019-08-31",
+          "created": "2019-07-08",
           "notes": "Auto world scale now correctly sets the player height adjust",
           "files": [
             {
@@ -72,7 +102,7 @@
         },
         {
           "version": "2.0.2",
-          "created": "2019-08-31",
+          "created": "2019-07-03",
           "notes": "Fix for male hair sim, revert to the previous world scale",
           "files": [
             {
@@ -87,7 +117,7 @@
         },
         {
           "version": "2.0.1",
-          "created": "2019-08-31",
+          "created": "2019-07-03",
           "notes": "Steam / WMR support, Longer waiting time on inital scene loading",
           "files": [
             {
@@ -102,7 +132,7 @@
         },
         {
           "version": "2.0.0",
-          "created": "2019-08-31",
+          "created": "2019-07-01",
           "notes": "The ultimate improved point of view plugin version!",
           "files": [
             {
@@ -117,7 +147,7 @@
         },
         {
           "version": "1.0.3",
-          "created": "2019-08-31",
+          "created": "2019-06-28",
           "notes": "Missing GlossNMDetailCullComputeBuff, fix compile error",
           "files": [
             {
@@ -140,7 +170,7 @@
         },
         {
           "version": "1.0.2",
-          "created": "2019-08-31",
+          "created": "2019-06-25",
           "notes": "Forgot a log",
           "files": [
             {
@@ -195,8 +225,23 @@
       "repository": "https://github.com/acidbubbles/vam-passenger",
       "versions": [
         {
+          "version": "1.4.0",
+          "created": "2019-08-07",
+          "notes": "Key toggle, possess node rotation, fixes",
+          "files": [
+            {
+              "filename": "Passenger.cs",
+              "url": "https://github.com/acidbubbles/vam-passenger/releases/download/v1.4.0/Passenger.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "4E4CF7538D90072A38F013D20936B5DBB260D625EBF70F8C31B52F0BE6980113"
+              }
+            }
+          ]
+        },
+        {
           "version": "1.3.0",
-          "created": "2019-08-31",
+          "created": "2019-07-30",
           "notes": "Specify a world scale",
           "files": [
             {
@@ -211,7 +256,7 @@
         },
         {
           "version": "1.2.0",
-          "created": "2019-08-31",
+          "created": "2019-07-28",
           "notes": "Immediate deactivate, integration with improved-pov",
           "files": [
             {
@@ -226,7 +271,7 @@
         },
         {
           "version": "1.1.0",
-          "created": "2019-08-31",
+          "created": "2019-07-24",
           "notes": "Physics interpolation, match headset angle",
           "files": [
             {
@@ -241,7 +286,7 @@
         },
         {
           "version": "1.0.1",
-          "created": "2019-08-31",
+          "created": "2019-07-11",
           "notes": "Prevent game crashes, no smooth on activate",
           "files": [
             {
@@ -256,7 +301,7 @@
         },
         {
           "version": "1.0.0",
-          "created": "2019-08-31",
+          "created": "2019-07-10",
           "notes": "Lock to model, smoothing, no roll, offset",
           "files": [
             {
@@ -268,30 +313,8 @@
               }
             }
           ]
-        },
-        {
-          "version": "1.4.0",
-          "created": "2019-08-31",
-          "notes": "Key toggle, possess node rotation, fixes",
-          "files": [
-            {
-              "filename": "Passenger.cs",
-              "url": "https://github.com/acidbubbles/vam-passenger/releases/download/v1.4.0/Passenger.cs",
-              "hash": {
-                "type": "sha256",
-                "value": "4E4CF7538D90072A38F013D20936B5DBB260D625EBF70F8C31B52F0BE6980113"
-              }
-            }
-          ]
         }
       ]
-    }
-  ],
-  "authors": [
-    {
-      "name": "Acidbubbles",
-      "reddit": "https://www.reddit.com/user/acidbubbles/",
-      "github": "https://github.com/acidbubbles"
     }
   ]
 }
