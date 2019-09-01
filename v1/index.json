@@ -1,59 +1,5 @@
 {
-  "authors": [
-    {
-      "name": "Acidbubbles",
-      "gitHub": "https://github.com/acidbubbles",
-      "reddit": "https://www.reddit.com/user/acidbubbles/"
-    }
-  ],
   "scripts": [
-    {
-      "name": "improved-pov",
-      "description": "Improved PoV (Point of View) camera handling in Virt-A-Mate",
-      "tags": ["possession", "person"],
-      "author": "Acidbubbles",
-      "homepage": "https://www.reddit.com/r/VAMscenes/comments/c8x6a2/improved_pov_20_possession_mode_feels_better_than/",
-      "repository": "https://github.com/acidbubbles/vam-improved-pov",
-      "versions": [
-        {
-          "version": "2.0.4",
-          "created": "2019-07-31",
-          "files": [
-            {
-              "filename": "ImprovedPoV.cs",
-              "url": "https://github.com/acidbubbles/vam-improved-pov/releases/download/v2.0.4/ImprovedPoV.cs",
-              "hash": {
-                "type": "sha256",
-                "value": "814E416E6D2F517A35ADFE21CBD9589BC9D8BE9C9911AABA97B40578C9EECCA6"
-              }
-            }
-          ]
-        },
-        {
-          "version": "1.0.0",
-          "created": "2019-06-23",
-          "notes": "The first official version of Improved PoV for Virt-a-Mate!",
-          "files": [
-            {
-              "filename": "ImprovedPoV_Mirror.cs",
-              "url": "https://github.com/acidbubbles/vam-improved-pov/releases/download/v1.0.0/ImprovedPoV_Mirror.cs",
-              "hash": {
-                "type": "sha256",
-                "value": "5C1AE9DC45A96A2D1D5965AADC48EBB372E53F4E9B70A0791CFF0D083885AAE7"
-              }
-            },
-            {
-              "filename": "ImprovedPoV_Person.cs",
-              "url": "https://github.com/acidbubbles/vam-improved-pov/releases/download/v1.0.0/ImprovedPoV_Person.cs",
-              "hash": {
-                "type": "sha256",
-                "value": "7A1A17DCBC2D3767F666F6BC11CBDAA089BA9F77B5EA6A3569B5A1F43309D3F6"
-              }
-            }
-          ]
-        }
-      ]
-    },
     {
       "name": "director",
       "description": "Sequence camera angles using an animation pattern",
@@ -86,6 +32,266 @@
           ]
         }
       ]
+    },
+    {
+      "name": "improved-pov",
+      "description": "Improved PoV (Point of View) camera handling in Virt-A-Mate",
+      "tags": ["possession", "person"],
+      "author": "Acidbubbles",
+      "homepage": "https://www.reddit.com/r/VAMscenes/comments/c8x6a2/improved_pov_20_possession_mode_feels_better_than/",
+      "repository": "https://github.com/acidbubbles/vam-improved-pov",
+      "versions": [
+        {
+          "version": "2.0.4",
+          "created": "2019-07-31",
+          "files": [
+            {
+              "filename": "ImprovedPoV.cs",
+              "url": "https://github.com/acidbubbles/vam-improved-pov/releases/download/v2.0.4/ImprovedPoV.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "814E416E6D2F517A35ADFE21CBD9589BC9D8BE9C9911AABA97B40578C9EECCA6"
+              }
+            }
+          ]
+        },
+        {
+          "version": "2.0.3",
+          "created": "2019-08-31",
+          "notes": "Auto world scale now correctly sets the player height adjust",
+          "files": [
+            {
+              "filename": "ImprovedPoV.cs",
+              "url": "https://github.com/acidbubbles/vam-improved-pov/releases/download/v2.0.3/ImprovedPoV.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "23DAFBFE07646D6A18D572246BACD35339C491FD66634726165AE242ACDCD625"
+              }
+            }
+          ]
+        },
+        {
+          "version": "2.0.2",
+          "created": "2019-08-31",
+          "notes": "Fix for male hair sim, revert to the previous world scale",
+          "files": [
+            {
+              "filename": "ImprovedPoV.cs",
+              "url": "https://github.com/acidbubbles/vam-improved-pov/releases/download/v2.0.2/ImprovedPoV.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "4968B132E250650D0C3EE9CE04318DCC6DE50BB8D26EE9DB0A744A4C73FB0384"
+              }
+            }
+          ]
+        },
+        {
+          "version": "2.0.1",
+          "created": "2019-08-31",
+          "notes": "Steam / WMR support, Longer waiting time on inital scene loading",
+          "files": [
+            {
+              "filename": "ImprovedPoV.cs",
+              "url": "https://github.com/acidbubbles/vam-improved-pov/releases/download/v2.0.1/ImprovedPoV.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "FB3F36A26065B545265B6873CB5F67565EE4A20D11BD7465305BC36D85E82816"
+              }
+            }
+          ]
+        },
+        {
+          "version": "2.0.0",
+          "created": "2019-08-31",
+          "notes": "The ultimate improved point of view plugin version!",
+          "files": [
+            {
+              "filename": "ImprovedPoV.cs",
+              "url": "https://github.com/acidbubbles/vam-improved-pov/releases/download/v2.0.0/ImprovedPoV.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "8380EA8BDA45B3DA28476A5EFAD90804A0C6B7840C8F8FE4D3FE1719A681A936"
+              }
+            }
+          ]
+        },
+        {
+          "version": "1.0.3",
+          "created": "2019-08-31",
+          "notes": "Missing GlossNMDetailCullComputeBuff, fix compile error",
+          "files": [
+            {
+              "filename": "ImprovedPoV_Mirror.cs",
+              "url": "https://github.com/acidbubbles/vam-improved-pov/releases/download/v1.0.3/ImprovedPoV_Mirror.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "AB0F2E98B0FBCE4DF7969672760399972D3BBEEB4DBD97EDC1D8502A48092FF5"
+              }
+            },
+            {
+              "filename": "ImprovedPoV_Person.cs",
+              "url": "https://github.com/acidbubbles/vam-improved-pov/releases/download/v1.0.3/ImprovedPoV_Person.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "DF0256B31767DFF4566DC37701A40225E8F5BD55F1CAE8A3AC7932455CAE3848"
+              }
+            }
+          ]
+        },
+        {
+          "version": "1.0.2",
+          "created": "2019-08-31",
+          "notes": "Forgot a log",
+          "files": [
+            {
+              "filename": "ImprovedPoV_Mirror.cs",
+              "url": "https://github.com/acidbubbles/vam-improved-pov/releases/download/v1.0.2/ImprovedPoV_Mirror.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "F55B4A04767A0A346C09223E03199C410FA7DBA4848FB3F6D35E418B6D6068C2"
+              }
+            },
+            {
+              "filename": "ImprovedPoV_Person.cs",
+              "url": "https://github.com/acidbubbles/vam-improved-pov/releases/download/v1.0.2/ImprovedPoV_Person.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "59DF1B1BF619DAF548C7CE1B21F043A2B17DF06DF66D847F8E36D357324555CD"
+              }
+            }
+          ]
+        },
+        {
+          "version": "1.0.0",
+          "created": "2019-06-23",
+          "notes": "The first official version of Improved PoV for Virt-a-Mate!",
+          "files": [
+            {
+              "filename": "ImprovedPoV_Mirror.cs",
+              "url": "https://github.com/acidbubbles/vam-improved-pov/releases/download/v1.0.0/ImprovedPoV_Mirror.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "5C1AE9DC45A96A2D1D5965AADC48EBB372E53F4E9B70A0791CFF0D083885AAE7"
+              }
+            },
+            {
+              "filename": "ImprovedPoV_Person.cs",
+              "url": "https://github.com/acidbubbles/vam-improved-pov/releases/download/v1.0.0/ImprovedPoV_Person.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "7A1A17DCBC2D3767F666F6BC11CBDAA089BA9F77B5EA6A3569B5A1F43309D3F6"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "passenger",
+      "description": "You follow the possessed model's head, not the other way around",
+      "tags": ["possession", "person", "camera"],
+      "author": "Acidbubbles",
+      "homepage": "https://www.reddit.com/r/VAMscenes/comments/cbq6lf/passenger_plugin_dont_possess_be_possessed/",
+      "repository": "https://github.com/acidbubbles/vam-passenger",
+      "versions": [
+        {
+          "version": "1.3.0",
+          "created": "2019-08-31",
+          "notes": "Specify a world scale",
+          "files": [
+            {
+              "filename": "Passenger.cs",
+              "url": "https://github.com/acidbubbles/vam-passenger/releases/download/v1.3.0/Passenger.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "13D6CC39AB222DA0DCBCF365FE547358D95559AB8B6D96D53DDB5EAE19A8FCA9"
+              }
+            }
+          ]
+        },
+        {
+          "version": "1.2.0",
+          "created": "2019-08-31",
+          "notes": "Immediate deactivate, integration with improved-pov",
+          "files": [
+            {
+              "filename": "Passenger.cs",
+              "url": "https://github.com/acidbubbles/vam-passenger/releases/download/v1.2.0/Passenger.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "A502A681CCE3D4888E7EEBCE90C8BD44D1600D98EFAC66B131AAD58C35422ABC"
+              }
+            }
+          ]
+        },
+        {
+          "version": "1.1.0",
+          "created": "2019-08-31",
+          "notes": "Physics interpolation, match headset angle",
+          "files": [
+            {
+              "filename": "Passenger.cs",
+              "url": "https://github.com/acidbubbles/vam-passenger/releases/download/v1.1.0/Passenger.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "30E63F5E712B90BF1447C5CE247046758D006FC5689EF132F97243F85EB1DEEA"
+              }
+            }
+          ]
+        },
+        {
+          "version": "1.0.1",
+          "created": "2019-08-31",
+          "notes": "Prevent game crashes, no smooth on activate",
+          "files": [
+            {
+              "filename": "Passenger.cs",
+              "url": "https://github.com/acidbubbles/vam-passenger/releases/download/v1.0.1/Passenger.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "B124A6408C4657ADAF260E85168ABB5106EC898F2DCADC8A9ED7BC5E5C4A02B3"
+              }
+            }
+          ]
+        },
+        {
+          "version": "1.0.0",
+          "created": "2019-08-31",
+          "notes": "Lock to model, smoothing, no roll, offset",
+          "files": [
+            {
+              "filename": "Passenger.cs",
+              "url": "https://github.com/acidbubbles/vam-passenger/releases/download/v1.0.0/Passenger.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "17D4F392DAAFDF89E4E004DFEF40076E295F92FB170220B9D6B238160266D040"
+              }
+            }
+          ]
+        },
+        {
+          "version": "1.4.0",
+          "created": "2019-08-31",
+          "notes": "Key toggle, possess node rotation, fixes",
+          "files": [
+            {
+              "filename": "Passenger.cs",
+              "url": "https://github.com/acidbubbles/vam-passenger/releases/download/v1.4.0/Passenger.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "4E4CF7538D90072A38F013D20936B5DBB260D625EBF70F8C31B52F0BE6980113"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authors": [
+    {
+      "name": "Acidbubbles",
+      "reddit": "https://www.reddit.com/user/acidbubbles/",
+      "github": "https://github.com/acidbubbles"
     }
   ]
 }
