@@ -1,25 +1,25 @@
 {
   "definitions": {},
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "http://example.com/root.json",
+  "$id": "https://github.com/vam-community/vam-registry/v1/schema.json",
   "type": "object",
-  "title": "The Root Schema",
+  "title": "Virt-A-Mate scripts registry",
   "required": ["authors", "scripts"],
   "properties": {
     "authors": {
       "$id": "#/properties/authors",
       "type": "array",
-      "title": "The Authors Schema",
+      "title": "Script Authors",
       "items": {
         "$id": "#/properties/authors/items",
         "type": "object",
-        "title": "The Items Schema",
-        "required": ["name", "gitHub", "reddit"],
+        "title": "Script Authors",
+        "required": ["name"],
         "properties": {
           "name": {
             "$id": "#/properties/authors/items/properties/name",
             "type": "string",
-            "title": "The Name Schema",
+            "title": "Author name (matched with Sript[].Author)",
             "default": "",
             "examples": ["Acidbubbles"],
             "pattern": "^(.*)$"
@@ -27,7 +27,7 @@
           "gitHub": {
             "$id": "#/properties/authors/items/properties/gitHub",
             "type": "string",
-            "title": "The Github Schema",
+            "title": "A link to the GitHub profile",
             "default": "",
             "examples": ["https://github.com/acidbubbles"],
             "pattern": "^(.*)$"
@@ -35,7 +35,7 @@
           "reddit": {
             "$id": "#/properties/authors/items/properties/reddit",
             "type": "string",
-            "title": "The Reddit Schema",
+            "title": "A link to the Reddit profile",
             "default": "",
             "examples": ["https://www.reddit.com/user/acidbubbles/"],
             "pattern": "^(.*)$"
@@ -46,37 +46,27 @@
     "scripts": {
       "$id": "#/properties/scripts",
       "type": "array",
-      "title": "The Scripts Schema",
+      "title": "Scripts (a.k.a. packages, or plugins)",
       "items": {
         "$id": "#/properties/scripts/items",
         "type": "object",
-        "title": "The Items Schema",
-        "required": [
-          "name",
-          "description",
-          "tags",
-          "author",
-          "homepage",
-          "repository",
-          "versions"
-        ],
+        "title": "Scripts",
+        "required": ["name", "author", "versions"],
         "properties": {
           "name": {
             "$id": "#/properties/scripts/items/properties/name",
             "type": "string",
-            "title": "The Name Schema",
+            "title": "Script name",
             "default": "",
-            "examples": ["improved-pov"],
-            "pattern": "^(.*)$"
+            "examples": ["my-plugin"],
+            "pattern": "^[a-z][a-z0-9\\-_]{2,127}$"
           },
           "description": {
             "$id": "#/properties/scripts/items/properties/description",
             "type": "string",
-            "title": "The Description Schema",
+            "title": "A short description of the script",
             "default": "",
-            "examples": [
-              "Improved PoV (Point of View) camera handling in Virt-A-Mate"
-            ],
+            "examples": ["This script does some cool stuff"],
             "pattern": "^(.*)$"
           },
           "tags": {
@@ -86,102 +76,100 @@
             "items": {
               "$id": "#/properties/scripts/items/properties/tags/items",
               "type": "string",
-              "title": "The Items Schema",
+              "title": "Tags to help find your script",
               "default": "",
-              "examples": ["possession", "person"],
-              "pattern": "^(.*)$"
+              "examples": ["something", "multiple words"],
+              "pattern": "^[a-z0-9\\-_]{2,64}$"
             }
           },
           "author": {
             "$id": "#/properties/scripts/items/properties/author",
             "type": "string",
-            "title": "The Author Schema",
+            "title": "The author name (links with Authors[].Name)",
             "default": "",
-            "examples": ["Acidbubbles"],
+            "examples": ["Some User"],
             "pattern": "^(.*)$"
           },
           "homepage": {
             "$id": "#/properties/scripts/items/properties/homepage",
             "type": "string",
-            "title": "The Homepage Schema",
+            "title": "The url to the homepage of your script (e.g. a reddit link)",
             "default": "",
-            "examples": [
-              "https://www.reddit.com/r/VAMscenes/comments/c8x6a2/improved_pov_20_possession_mode_feels_better_than/"
-            ],
+            "examples": ["https://www.reddit.com/r/VAMscenes/..."],
             "pattern": "^(.*)$"
           },
           "repository": {
             "$id": "#/properties/scripts/items/properties/repository",
             "type": "string",
-            "title": "The Repository Schema",
+            "title": "The url to the repository of your script (e.g. a github link)",
             "default": "",
-            "examples": ["https://github.com/acidbubbles/vam-improved-pov"],
+            "examples": ["https://github.com/..."],
             "pattern": "^(.*)$"
           },
           "versions": {
             "$id": "#/properties/scripts/items/properties/versions",
             "type": "array",
-            "title": "The Versions Schema",
+            "title": "All versions of this script",
             "items": {
               "$id": "#/properties/scripts/items/properties/versions/items",
               "type": "object",
-              "title": "The Items Schema",
+              "title": "Versions",
               "required": ["version", "created", "files"],
               "properties": {
                 "version": {
                   "$id": "#/properties/scripts/items/properties/versions/items/properties/version",
                   "type": "string",
-                  "title": "The Version Schema",
+                  "title": "The version name",
                   "default": "",
-                  "examples": ["2.0.4"],
-                  "pattern": "^(.*)$"
+                  "examples": ["2.0.4", "1.0.0-alpha1"],
+                  "pattern": "^(0|[1-9][0-9]{0,3})\\.(0|[1-9][0-9]{0,3})\\.(0|[1-9][0-9]{0,3})(-([a-z0-9]{1,32}))?$"
                 },
                 "created": {
                   "$id": "#/properties/scripts/items/properties/versions/items/properties/created",
                   "type": "string",
-                  "title": "The Created Schema",
+                  "title": "When was this specific version created and published",
                   "default": "",
                   "examples": ["2019-07-31"],
-                  "pattern": "^(.*)$"
+                  "pattern": "^2\\d{3}-\\d{2}-\\d{2}$"
                 },
                 "files": {
                   "$id": "#/properties/scripts/items/properties/versions/items/properties/files",
                   "type": "array",
-                  "title": "The Files Schema",
+                  "title": "All files contained in this version",
                   "items": {
                     "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items",
                     "type": "object",
-                    "title": "The Items Schema",
+                    "title": "Files",
                     "required": ["filename", "url", "hash"],
                     "properties": {
                       "filename": {
                         "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/filename",
                         "type": "string",
-                        "title": "The Filename Schema",
+                        "title": "The filename, relative to the root of the script's folder",
                         "default": "",
-                        "examples": ["ImprovedPoV.cs"],
-                        "pattern": "^(.*)$"
+                        "examples": ["My Script.cs"],
+                        "pattern": "^(.+)\\.(cs|cslist)$"
                       },
                       "url": {
                         "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/url",
                         "type": "string",
-                        "title": "The Url Schema",
+                        "title": "The url to download this file",
                         "default": "",
                         "examples": [
-                          "https://github.com/acidbubbles/vam-improved-pov/releases/download/v2.0.4/ImprovedPoV.cs"
+                          "https://example.org/download/my-script/v1.0.0/My%20Script.cs"
                         ],
                         "pattern": "^(.*)$"
                       },
                       "hash": {
                         "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/hash",
                         "type": "object",
-                        "title": "The Hash Schema",
+                        "title": "A hash of this file, where only non-empty lines are considered and joined using \\n",
                         "required": ["type", "value"],
                         "properties": {
                           "type": {
                             "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/hash/properties/type",
                             "type": "string",
-                            "title": "The Type Schema",
+                            "title": "The hashing method",
                             "default": "",
                             "examples": ["sha256"],
                             "pattern": "^(.*)$"
@@ -189,12 +177,12 @@
                           "value": {
                             "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/hash/properties/value",
                             "type": "string",
-                            "title": "The Value Schema",
+                            "title": "The hash",
                             "default": "",
                             "examples": [
                               "814E416E6D2F517A35ADFE21CBD9589BC9D8BE9C9911AABA97B40578C9EECCA6"
                             ],
-                            "pattern": "^(.*)$"
+                            "pattern": "^[A-Z0-9]{64}$"
                           }
                         }
                       }
