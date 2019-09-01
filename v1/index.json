@@ -1,13 +1,17 @@
 {
+  "authors": [
+    {
+      "name": "Acidbubbles",
+      "gitHub": "https://github.com/acidbubbles",
+      "reddit": "https://www.reddit.com/user/acidbubbles/"
+    }
+  ],
   "scripts": [
     {
       "name": "improved-pov",
       "description": "Improved PoV (Point of View) camera handling in Virt-A-Mate",
       "tags": ["possession", "person"],
-      "author": {
-        "name": "Acidbubbles",
-        "profile": "https://github.com/acidbubbles"
-      },
+      "author": "Acidbubbles",
       "homepage": "https://www.reddit.com/r/VAMscenes/comments/c8x6a2/improved_pov_20_possession_mode_feels_better_than/",
       "repository": "https://github.com/acidbubbles/vam-improved-pov",
       "versions": [
@@ -54,10 +58,7 @@
       "name": "director",
       "description": "Sequence camera angles using an animation pattern",
       "tags": ["animation", "camera"],
-      "author": {
-        "name": "Acidbubbles",
-        "profile": "https://github.com/acidbubbles"
-      },
+      "author": "Acidbubbles",
       "homepage": "https://www.reddit.com/r/VAMscenes/comments/ckyrbe/director_plugin_camera_angle_sequence_for_a/",
       "repository": "https://github.com/acidbubbles/vam-director",
       "versions": [

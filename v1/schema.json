@@ -4,8 +4,45 @@
   "$id": "http://example.com/root.json",
   "type": "object",
   "title": "The Root Schema",
-  "required": ["scripts"],
+  "required": ["authors", "scripts"],
   "properties": {
+    "authors": {
+      "$id": "#/properties/authors",
+      "type": "array",
+      "title": "The Authors Schema",
+      "items": {
+        "$id": "#/properties/authors/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": ["name", "gitHub", "reddit"],
+        "properties": {
+          "name": {
+            "$id": "#/properties/authors/items/properties/name",
+            "type": "string",
+            "title": "The Name Schema",
+            "default": "",
+            "examples": ["Acidbubbles"],
+            "pattern": "^(.*)$"
+          },
+          "gitHub": {
+            "$id": "#/properties/authors/items/properties/gitHub",
+            "type": "string",
+            "title": "The Github Schema",
+            "default": "",
+            "examples": ["https://github.com/acidbubbles"],
+            "pattern": "^(.*)$"
+          },
+          "reddit": {
+            "$id": "#/properties/authors/items/properties/reddit",
+            "type": "string",
+            "title": "The Reddit Schema",
+            "default": "",
+            "examples": ["https://www.reddit.com/user/acidbubbles/"],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
     "scripts": {
       "$id": "#/properties/scripts",
       "type": "array",
@@ -57,27 +94,11 @@
           },
           "author": {
             "$id": "#/properties/scripts/items/properties/author",
-            "type": "object",
+            "type": "string",
             "title": "The Author Schema",
-            "required": ["name", "profile"],
-            "properties": {
-              "name": {
-                "$id": "#/properties/scripts/items/properties/author/properties/name",
-                "type": "string",
-                "title": "The Name Schema",
-                "default": "",
-                "examples": ["Acidbubbles"],
-                "pattern": "^(.*)$"
-              },
-              "profile": {
-                "$id": "#/properties/scripts/items/properties/author/properties/profile",
-                "type": "string",
-                "title": "The Profile Schema",
-                "default": "",
-                "examples": ["https://github.com/acidbubbles"],
-                "pattern": "^(.*)$"
-              }
-            }
+            "default": "",
+            "examples": ["Acidbubbles"],
+            "pattern": "^(.*)$"
           },
           "homepage": {
             "$id": "#/properties/scripts/items/properties/homepage",
