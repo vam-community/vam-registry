@@ -5,6 +5,7 @@
   "type": "object",
   "title": "Virt-A-Mate scripts registry",
   "required": ["authors", "scripts"],
+  "additionalProperties": false,
   "properties": {
     "authors": {
       "$id": "#/properties/authors",
@@ -15,6 +16,7 @@
         "type": "object",
         "title": "Script Authors",
         "required": ["name"],
+        "additionalProperties": false,
         "properties": {
           "name": {
             "$id": "#/properties/authors/items/properties/name",
@@ -52,6 +54,7 @@
         "type": "object",
         "title": "Scripts",
         "required": ["name", "author", "versions"],
+        "additionalProperties": false,
         "properties": {
           "name": {
             "$id": "#/properties/scripts/items/properties/name",
@@ -115,6 +118,7 @@
               "type": "object",
               "title": "Versions",
               "required": ["version", "created", "files"],
+              "additionalProperties": false,
               "properties": {
                 "version": {
                   "$id": "#/properties/scripts/items/properties/versions/items/properties/version",
@@ -149,6 +153,7 @@
                     "type": "object",
                     "title": "Files",
                     "required": ["filename", "url", "hash"],
+                    "additionalProperties": false,
                     "properties": {
                       "filename": {
                         "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/filename",
