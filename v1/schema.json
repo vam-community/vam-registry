@@ -26,8 +26,8 @@
             "examples": ["Acidbubbles"],
             "pattern": "^(.*)$"
           },
-          "gitHub": {
-            "$id": "#/properties/authors/items/properties/gitHub",
+          "github": {
+            "$id": "#/properties/authors/items/properties/github",
             "type": "string",
             "title": "A link to the GitHub profile",
             "default": "",
