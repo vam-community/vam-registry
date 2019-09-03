@@ -4,6 +4,10 @@
       "name": "Acidbubbles",
       "reddit": "https://www.reddit.com/user/acidbubbles/",
       "github": "https://github.com/acidbubbles"
+    },
+    {
+      "name": "Spacedog",
+      "reddit": "https://www.reddit.com/user/Driftdawg/"
     }
   ],
   "scripts": [
@@ -310,6 +314,30 @@
               "hash": {
                 "type": "sha256",
                 "value": "17D4F392DAAFDF89E4E004DFEF40076E295F92FB170220B9D6B238160266D040"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "simple-gaze",
+      "description": "Edit of the Gaze script by MacGruber, updated by VeeRifter and Physis; when you don't want all the bells and whistles",
+      "tags": ["gaze", "person"],
+      "author": "Spacedog",
+      "homepage": "https://www.reddit.com/r/VAMscenes/comments/cj5sfy/script_simple_gaze_v10/",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "created": "2019-09-02",
+          "notes": "Initial release",
+          "files": [
+            {
+              "filename": "Simple Gaze.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/7e0611bb7c9a9daf90b618d44ca1735497b7b3d4/Scripts/Spacedog/Simple Gaze.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "0FDB71023F03A95667B1CAF0B100B365911DAC214E4713E28AE484F22E0525BC"
               }
             }
           ]
