@@ -12,6 +12,29 @@
   ],
   "scripts": [
     {
+      "name": "camera-nearclipplane-controller",
+      "description": "Changes the camera clip plane, to see through walls for example",
+      "tags": ["camera", "clipping", "near"],
+      "author": "Acidbubbles",
+      "repository": "https://github.com/acidbubbles/vam-utilities",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "created": "2019-09-02",
+          "files": [
+            {
+              "filename": "CameraNearClipPlane.cs",
+              "url": "https://raw.githubusercontent.com/acidbubbles/vam-utilities/8b5c6c6878de91a11a0eea033bc87eebcdc1cb7a/CameraNearClipPlane.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "6DF9C523B9C71550F883EDDF5BFB6213731EC535EC33115EE2481E4FF6EA884C"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "director",
       "description": "Sequence camera angles using an animation pattern",
       "tags": ["animation", "camera"],
@@ -338,6 +361,29 @@
               "hash": {
                 "type": "sha256",
                 "value": "0FDB71023F03A95667B1CAF0B100B365911DAC214E4713E28AE484F22E0525BC"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "timescale-controller",
+      "description": "Allows triggers that affect time scale",
+      "tags": ["trigger", "timescale"],
+      "author": "Acidbubbles",
+      "repository": "https://github.com/acidbubbles/vam-utilities",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "created": "2019-09-02",
+          "files": [
+            {
+              "filename": "TimeScaleController.cs",
+              "url": "https://raw.githubusercontent.com/acidbubbles/vam-utilities/8b5c6c6878de91a11a0eea033bc87eebcdc1cb7a/TimeScaleController.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "BB44415FA0AD47180989D2260A067FC75EDF63C2AEBBC53EE7F9F42957DF354E"
               }
             }
           ]
