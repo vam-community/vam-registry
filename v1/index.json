@@ -110,14 +110,606 @@
     {
       "name": "e-motion",
       "description": "Add a bit of life to characters in VAM and allow you to interact with them",
-      "tags": ["interaction", "breathe", "blink", "gaze", "idle", "motion", "expression"],
+      "tags": ["interaction", "expression"],
       "author": "VRAdultFun",
       "homepage": "https://www.reddit.com/r/VAMscenes/comments/c13vmy/emotion_14_release_sounds_of_pleasure/",
       "versions": [
         {
+          "version": "1.4.0",
+          "created": "2019-06-15",
+          "notes": "Sounds of pleasure",
+          "files": [
+            {
+              "filename": "E-Motion_AddThisONLY.cslist",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/E-Motion_AddThisONLY.cslist",
+              "hash": {
+                "type": "sha256",
+                "value": "A721EB4D10C123C9A7CCE89DB9B6DA74A2EC22177C79BC26C2CADC764948729F"
+              }
+            },
+            {
+              "filename": "EmotionEngine.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/EmotionEngine.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "9BD597DF8D85AFBDE898DF610B30150622B44E83FE36557ECE124D99B8B1E000"
+              }
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah1.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah10.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah11.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah12.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah13.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah14.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah15.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah16.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah2.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah3.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah4.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah5.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah6.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah7.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah8.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah9.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast1.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast2.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast3.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast4.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In1.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In2.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In3.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In4.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In5.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In6.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm1.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm10.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm11.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm12.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm13.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm14.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm15.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm16.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm2.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm3.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm4.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm5.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm6.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm7.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm8.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm9.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh1.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh10.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh11.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh12.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh13.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh14.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh15.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh2.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh3.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh4.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh5.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh6.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh7.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh8.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh9.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Out1.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Out2.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Out3.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Out4.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Out5.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah1.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah2.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah3.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah4.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah5.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah6.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah7.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah8.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_In_Long1.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_In_Long2.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_In_Med1.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_In_Med2.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_In_Med3.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_Out_Long1.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_Out_Long2.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_Out_Long3.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_Out_Long4.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss_Mmm1.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss_Mmm2.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss1.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss10.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss2.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss3.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss4.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss5.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss6.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss7.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss8.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss9.wav"
+            },
+            {
+              "filename": "StateMachine.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/StateMachine.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "42E5A0DE8671C66C5A5E98AB431E63A4B107EEE90A80FFFC5A2D43806CDB0B34"
+              }
+            },
+            {
+              "filename": "TriggerCollide.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/TriggerCollide.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "AC1F4CB88E2A57F5DE809F1A647A3C98D2C0B9822DFC806388BC292175022C29"
+              }
+            },
+            {
+              "filename": "AttentionStates/EmotionEngine.LBored.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LBored.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "2C82ADC9EA8B76EC48B0B238DEA36727E0386CC61D4BE28C968F21FD99499A53"
+              }
+            },
+            {
+              "filename": "AttentionStates/EmotionEngine.LCasual.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LCasual.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "3A1B89F445F2E671BCB5DD0E397AD042C5E731F741A517B9B8AD122E6D911176"
+              }
+            },
+            {
+              "filename": "AttentionStates/EmotionEngine.LDayDream.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LDayDream.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "9A0B462A0CB90EB22F7C6B48EACFA6FD39A52315D96BDAAF0A6697277EBCD7E3"
+              }
+            },
+            {
+              "filename": "AttentionStates/EmotionEngine.LFeel.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LFeel.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "2587E226BE96CCD7FF1B845CB94ABCEB0FC89FB7ECE504E1C84006D56AF602E6"
+              }
+            },
+            {
+              "filename": "AttentionStates/EmotionEngine.LInquisitive.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LInquisitive.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "03AF559EB85097FC6168D9E78AC1E7B3C45070FEF227D7751FF4F3FD303503BD"
+              }
+            },
+            {
+              "filename": "AttentionStates/EmotionEngine.LIntense.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LIntense.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "A3DF4EC4DD71D71F8B9B0F906EB314D7C8F6EC3DEA6E0941BE5BF7DA44C05792"
+              }
+            },
+            {
+              "filename": "AttentionStates/EmotionEngine.LKissing.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LKissing.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "D42C87BCBEBF82C58D9B3668BFC2997B5C5639448116C7E5041D4869B06127C5"
+              }
+            },
+            {
+              "filename": "AttentionStates/EmotionEngine.LPlayful.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LPlayful.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "795A170DD9AAF186B3D8FC9C892A4DD52C8D36FAFE023015D9580186DB446B0B"
+              }
+            },
+            {
+              "filename": "AttentionStates/EmotionEngine.LSex.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LSex.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "4027A3A5FEA73432DFB30A36C3048D6F16856C82D01F3B44FDFB36F6B51D2991"
+              }
+            },
+            {
+              "filename": "AttentionStates/EmotionEngine.LSucking.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LSucking.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "D781586C8DAF1D70D6B8A56B88A1F1F5816BB7CD20BB7BD65282F99A0AF65E09"
+              }
+            },
+            {
+              "filename": "BrowStates/EmotionEngine.BApprehensive.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/BrowStates/EmotionEngine.BApprehensive.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "D5F92D373353AA186164D12A50CE766299A50DA22005EA6F385CD0CA69552CDE"
+              }
+            },
+            {
+              "filename": "BrowStates/EmotionEngine.BConcentrate.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/BrowStates/EmotionEngine.BConcentrate.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "105D178126935022AC43FFA26CC7CF37C206BBF8D06581825419FE2E659078F3"
+              }
+            },
+            {
+              "filename": "BrowStates/EmotionEngine.BLowered.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/BrowStates/EmotionEngine.BLowered.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "54807A0A717E4EA676615237194304CDF28E0FC80443695F2D026E1B68BB36B2"
+              }
+            },
+            {
+              "filename": "BrowStates/EmotionEngine.BOneRaise.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/BrowStates/EmotionEngine.BOneRaise.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "5901125E9C1E4C2C1B44665EA43266060B256CA7C93F47D3D5374A3DE56A93ED"
+              }
+            },
+            {
+              "filename": "BrowStates/EmotionEngine.BRaised.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/BrowStates/EmotionEngine.BRaised.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "46494954A888B4E82A760E09A1D32AB2D59485011191CEDF8E2F145661819D69"
+              }
+            },
+            {
+              "filename": "EyeStates/EmotionEngine.EBlink.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EBlink.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "F055E04CAE4579434707A38E5CA9C2552AE1C93C722868FD266CEE556727E9A5"
+              }
+            },
+            {
+              "filename": "EyeStates/EmotionEngine.EClosed.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EClosed.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "25C94019EE4F5B808A260F79E2F6FF036AAE3C00B65CA1EA8EC59058080A46F0"
+              }
+            },
+            {
+              "filename": "EyeStates/EmotionEngine.EFocus.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EFocus.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "89AD6E9FAFF9F38306749B05BD9A9589084B73F7D04F0BD012E72467727BCE84"
+              }
+            },
+            {
+              "filename": "EyeStates/EmotionEngine.EOpen.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EOpen.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "1ED74A1D7997F0AD79ED25855F58AC185FE2231C6E7947A94AF50B698B0E5911"
+              }
+            },
+            {
+              "filename": "EyeStates/EmotionEngine.ESquint.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.ESquint.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "2C7C6F892E76C006D17D7418970A0EDE77D92AB6DDB5CF742B90CC21DE32A09B"
+              }
+            },
+            {
+              "filename": "EyeStates/EmotionEngine.EWide.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EWide.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "0314BCA39FAB60BBC96950E862FA2704D5C84A0CDEF0720422672FEF475E2178"
+              }
+            },
+            {
+              "filename": "EyeStates/EmotionEngine.EWink.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EWink.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "EB0963932D7264D4D3292D3C825763087EF0625DF901B6C57F6EDE44487E2BF6"
+              }
+            },
+            {
+              "filename": "MouthStates/EmotionEngine.MBigSmile.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MBigSmile.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "05B668619223217FDCAFD68B8428BE2CFA3F0EAC9B0F69572AF227C72CB3B2E9"
+              }
+            },
+            {
+              "filename": "MouthStates/EmotionEngine.MBiteLip.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MBiteLip.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "F80EC2085606B0A90536B516B377689CC0407C7FADA76065F7D566BAAF216975"
+              }
+            },
+            {
+              "filename": "MouthStates/EmotionEngine.MClosed.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MClosed.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "25F24ABCFAF7F7582E0FD25BED47E0D5700867A64C262E48FBD4FB2F67C737F6"
+              }
+            },
+            {
+              "filename": "MouthStates/EmotionEngine.MJoy.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MJoy.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "1E3E450363750EA168A9E041312B5527D4BB6B8D397CDAA7B51B9B8C2FC263E4"
+              }
+            },
+            {
+              "filename": "MouthStates/EmotionEngine.MKiss.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MKiss.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "479D94685B87C4558F52DB63CFCE1081BC48855B8963325EC56E86C26FBE9E4D"
+              }
+            },
+            {
+              "filename": "MouthStates/EmotionEngine.MOpen.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MOpen.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "140E5DC45F45B5A45CF111C3250511E4C6A2F09F659F60EF854927ABB05D60A9"
+              }
+            },
+            {
+              "filename": "MouthStates/EmotionEngine.MSideways.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MSideways.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "94973026B9C4AAB67048AC9F7C2A6A9FEA83EBB453E4AF2C5F64B0DD7783036B"
+              }
+            },
+            {
+              "filename": "MouthStates/EmotionEngine.MSmile.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MSmile.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "88070C26FE04BF91438F29E18EA752D976D2CC2A62E686EC424319A391971C49"
+              }
+            },
+            {
+              "filename": "MouthStates/EmotionEngine.MSmirk.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MSmirk.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "4B3CC6C64ED42A16A5E2ACB313D80E952BCA1834C35032695AF641E18BE04AA1"
+              }
+            },
+            {
+              "filename": "MouthStates/EmotionEngine.MSuck.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MSuck.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "5B222094A7A6BAA6B4C6C85C1FA4E39EDA8AD90986CB5120F52C55B3D23589BF"
+              }
+            }
+          ]
+        },
+        {
           "version": "1.1.1",
           "created": "2019-04-25",
           "files": [
+            {
+              "filename": "E-Motion_AddThisONLY.cslist",
+              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/E-Motion_AddThisONLY.cslist",
+              "hash": {
+                "type": "sha256",
+                "value": "B0C9DFFD03EEA65CC9689D3903D221C8E9CBA26D92AA20B86CA9E6F4731EA587"
+              }
+            },
+            {
+              "filename": "EmotionEngine.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/EmotionEngine.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "B1649EA617DE7389F27193E6F0A0B6BB01530E28F89CCA825DBAF4E6D0F97B7A"
+              }
+            },
+            {
+              "filename": "StateMachine.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/StateMachine.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "42E5A0DE8671C66C5A5E98AB431E63A4B107EEE90A80FFFC5A2D43806CDB0B34"
+              }
+            },
             {
               "filename": "AttentionStates/EmotionEngine.LBored.cs",
               "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LBored.cs",
@@ -236,22 +828,6 @@
               "hash": {
                 "type": "sha256",
                 "value": "3F5B49F481F5E25362F74C08E28F07C377C2C6F56C39A1362D8745581C0447C5"
-              }
-            },
-            {
-              "filename": "E-Motion_AddThisONLY.cslist",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/E-Motion_AddThisONLY.cslist",
-              "hash": {
-                "type": "sha256",
-                "value": "B0C9DFFD03EEA65CC9689D3903D221C8E9CBA26D92AA20B86CA9E6F4731EA587"
-              }
-            },
-            {
-              "filename": "EmotionEngine.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/EmotionEngine.cs",
-              "hash": {
-                "type": "sha256",
-                "value": "B1649EA617DE7389F27193E6F0A0B6BB01530E28F89CCA825DBAF4E6D0F97B7A"
               }
             },
             {
@@ -388,14 +964,6 @@
               "hash": {
                 "type": "sha256",
                 "value": "515B346F30146E471D3271FF7D75C22C7228F08DF5CFD1ED1B4EE0620C861C42"
-              }
-            },
-            {
-              "filename": "StateMachine.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/StateMachine.cs",
-              "hash": {
-                "type": "sha256",
-                "value": "42E5A0DE8671C66C5A5E98AB431E63A4B107EEE90A80FFFC5A2D43806CDB0B34"
               }
             }
           ]
@@ -681,14 +1249,6 @@
           "notes": "Controlling VariableTriggers and various improvements.",
           "files": [
             {
-              "filename": "MacGruber_Breathe.cs",
-              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/5635927a1cc337fe0033bf4d89c920725043e0fd/Scripts/MacGruber/macgruber-breathe/MacGruber_Breathe.cs",
-              "hash": {
-                "type": "sha256",
-                "value": "61CC677003C0F6B6A5C652EC1BED2BC9A58693B9FD4D9682433C7B0CD2BD8B85"
-              }
-            },
-            {
               "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.dsf"
             },
             {
@@ -696,6 +1256,14 @@
             },
             {
               "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.vmi"
+            },
+            {
+              "filename": "MacGruber_Breathe.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/5635927a1cc337fe0033bf4d89c920725043e0fd/Scripts/MacGruber/macgruber-breathe/MacGruber_Breathe.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "61CC677003C0F6B6A5C652EC1BED2BC9A58693B9FD4D9682433C7B0CD2BD8B85"
+              }
             }
           ]
         },
