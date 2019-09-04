@@ -297,26 +297,34 @@
       ]
     },
     {
+      "name": "macgruber-gaze",
+      "description": "Controls the head and eyes to simulate eye contact",
+      "tags": ["gaze", "person"],
+      "author": "MacGruber",
+      "versions": [
+        {
+          "version": "1.1.0",
+          "created": "2019-09-03",
+          "files": [
+            {
+              "filename": "MacGruber_Gaze.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/1acfc1e9c4b6b9cdd2c0d8125db65c296f7bc5d0/Scripts/MacGruber/macgruber-gaze/MacGruber_Gaze.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "4011D6192F912E78D283792F806F0B17DB28C3FBB719453A5B03D4830D22559A"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "macgruber-super-resolution",
       "description": "Take screenshots in 8K",
       "tags": ["screenshot"],
       "author": "MacGruber",
       "homepage": "https://www.reddit.com/r/VAMscenes/comments/crz2r4/superresolution_screenshot_plugin_v02_for_8k/",
       "versions": [
-        {
-          "version": "0.1.0",
-          "created": "2019-09-03",
-          "files": [
-            {
-              "filename": "MacGruber_SuperResolution.cs",
-              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/82f7e4f290e010b318e8a34d6861afe63b28f6cb/Scripts/MacGruber/macgruber-super-resolution/MacGruber_SuperResolution.cs",
-              "hash": {
-                "type": "sha256",
-                "value": "38670A61AB296AE52A2B25B5087611EA79914FD19FED03D3930E04CB29A19F81"
-              }
-            }
-          ]
-        },
         {
           "version": "0.2.0",
           "created": "2019-09-03",
@@ -328,6 +336,20 @@
               "hash": {
                 "type": "sha256",
                 "value": "897D81DFB56BD454B9042DE2CD56E47F1C630A98F52E369FB2A2B9B0EFD145E8"
+              }
+            }
+          ]
+        },
+        {
+          "version": "0.1.0",
+          "created": "2019-09-03",
+          "files": [
+            {
+              "filename": "MacGruber_SuperResolution.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/82f7e4f290e010b318e8a34d6861afe63b28f6cb/Scripts/MacGruber/macgruber-super-resolution/MacGruber_SuperResolution.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "38670A61AB296AE52A2B25B5087611EA79914FD19FED03D3930E04CB29A19F81"
               }
             }
           ]
