@@ -297,6 +297,38 @@
       ]
     },
     {
+      "name": "macgruber-breathe",
+      "description": "Scripted breathing with sync-animation",
+      "tags": ["breathing", "sync", "animation"],
+      "author": "MacGruber",
+      "homepage": "https://www.reddit.com/r/VAMscenes/comments/ajtc5r/sound_warning_scripted_breathing_with/",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "created": "2019-01-25",
+          "files": [
+            {
+              "filename": "Breathe.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Scripts/MacGruber/macgruber-breathe/Breathe.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "09396BE544FB1FAB117D65AAFDD7E016D1AB867A2F50C1D99316521AB2D0714D"
+              }
+            },
+            {
+              "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.dsf"
+            },
+            {
+              "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.vmb"
+            },
+            {
+              "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.vmi"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "macgruber-gaze",
       "description": "Controls the head and eyes to simulate eye contact",
       "tags": ["gaze", "person"],

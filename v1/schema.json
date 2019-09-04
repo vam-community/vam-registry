@@ -152,7 +152,7 @@
                     "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items",
                     "type": "object",
                     "title": "Files",
-                    "required": ["filename", "url", "hash"],
+                    "required": [],
                     "additionalProperties": false,
                     "properties": {
                       "filename": {
@@ -162,6 +162,14 @@
                         "default": "",
                         "examples": ["My Script.cs"],
                         "pattern": "^(.+)\\.(cs|cslist)$"
+                      },
+                      "localPath": {
+                        "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/localPath",
+                        "type": "string",
+                        "title": "The target path, relative to Virt-A-Mate's install directory",
+                        "default": "",
+                        "examples": ["Import/morphs/female/Some Morph.dsf"],
+                        "pattern": "^([a-zA-Z0-9_\\-\\./])$"
                       },
                       "url": {
                         "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/url",
