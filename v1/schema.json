@@ -169,7 +169,7 @@
                         "title": "The target path, relative to Virt-A-Mate's install directory",
                         "default": "",
                         "examples": ["Import/morphs/female/Some Morph.dsf"],
-                        "pattern": "^([a-zA-Z0-9_\\-\\./])$"
+                        "pattern": "^[a-zA-Z0-9_\\-\\./]+$"
                       },
                       "url": {
                         "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/url",
