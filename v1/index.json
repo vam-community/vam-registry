@@ -304,6 +304,30 @@
       "homepage": "https://www.reddit.com/r/VAMscenes/comments/ajtc5r/sound_warning_scripted_breathing_with/",
       "versions": [
         {
+          "version": "1.1.0",
+          "created": "2019-09-03",
+          "notes": "Controlling VariableTriggers and various improvements.",
+          "files": [
+            {
+              "filename": "MacGruber_Breathe.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/5635927a1cc337fe0033bf4d89c920725043e0fd/Scripts/MacGruber/macgruber-breathe/MacGruber_Breathe.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "61CC677003C0F6B6A5C652EC1BED2BC9A58693B9FD4D9682433C7B0CD2BD8B85"
+              }
+            },
+            {
+              "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.dsf"
+            },
+            {
+              "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.vmb"
+            },
+            {
+              "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.vmi"
+            }
+          ]
+        },
+        {
           "version": "1.0.0",
           "created": "2019-01-25",
           "files": [
@@ -325,28 +349,26 @@
               "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.vmi"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "macgruber-eyes",
+      "description": "Simple plugin that slowly closes eyes for a moment every now and then, overriding AutoBlink.",
+      "tags": ["eyes", "animation", "blink"],
+      "author": "MacGruber",
+      "versions": [
         {
-          "version": "1.1.0",
+          "version": "0.1.0",
           "created": "2019-09-03",
-          "notes": "Controlling VariableTriggers and various improvements.",
           "files": [
             {
-              "filename": "MacGruber_Breathe.cs",
-              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/5635927a1cc337fe0033bf4d89c920725043e0fd/Scripts/MacGruber/macgruber-breathe/MacGruber_Breathe.cs",
+              "filename": "MacGruber_Eyes.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/21ddb90fdf38915d41f690ab0687b9392ef2b36b/Scripts/MacGruber/macgruber-eyes/MacGruber_Eyes.cs",
               "hash": {
                 "type": "sha256",
-                "value": "61CC677003C0F6B6A5C652EC1BED2BC9A58693B9FD4D9682433C7B0CD2BD8B85"
+                "value": "0A123B487E222FA16474DDFEFB28558A71452CC0AFB1873CC3E62329579272CF"
               }
-            },
-            {
-              "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.dsf"
-            },
-            {
-              "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.vmb"
-            },
-            {
-              "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.vmi"
             }
           ]
         }
