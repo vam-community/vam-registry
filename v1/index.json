@@ -6,6 +6,10 @@
       "github": "https://github.com/acidbubbles"
     },
     {
+      "name": "MacGruber",
+      "reddit": "https://www.reddit.com/user/MacGruber_VR/"
+    },
+    {
       "name": "Spacedog",
       "reddit": "https://www.reddit.com/user/Driftdawg/"
     },
@@ -285,6 +289,44 @@
               "hash": {
                 "type": "sha256",
                 "value": "21DCA136259BDC28F09EEB520B7A4B963FAE3C9105A734F9A0AAC187A1E0E6EA"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "macgruber-super-resolution",
+      "description": "Take screenshots in 8K",
+      "tags": ["screenshot"],
+      "author": "MacGruber",
+      "homepage": "https://www.reddit.com/r/VAMscenes/comments/crz2r4/superresolution_screenshot_plugin_v02_for_8k/",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "created": "2019-09-03",
+          "files": [
+            {
+              "filename": "MacGruber_SuperResolution.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/82f7e4f290e010b318e8a34d6861afe63b28f6cb/Scripts/MacGruber/macgruber-super-resolution/MacGruber_SuperResolution.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "38670A61AB296AE52A2B25B5087611EA79914FD19FED03D3930E04CB29A19F81"
+              }
+            }
+          ]
+        },
+        {
+          "version": "0.2.0",
+          "created": "2019-09-03",
+          "notes": "Works in VR, faster preview, choose resolution",
+          "files": [
+            {
+              "filename": "MacGruber_SuperResolution.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/10da948c96995de73b25c45fb2fd1d8cb6448dc6/Scripts/MacGruber/macgruber-super-resolution/MacGruber_SuperResolution.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "897D81DFB56BD454B9042DE2CD56E47F1C630A98F52E369FB2A2B9B0EFD145E8"
               }
             }
           ]
