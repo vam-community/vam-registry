@@ -181,6 +181,12 @@
                         ],
                         "pattern": "^(.*)$"
                       },
+                      "ignore": {
+                        "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/ignore",
+                        "type": "boolean",
+                        "title": "Whether to skip this file; this is useful to match scripts packages in .vac files, but that should not be downloaded",
+                        "default": false
+                      },
                       "hash": {
                         "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/hash",
                         "type": "object",
