@@ -304,7 +304,7 @@
       "versions": [
         {
           "version": "1.1.0",
-          "created": "2019-09-03",
+          "created": "2019-01-01",
           "files": [
             {
               "filename": "MacGruber_Gaze.cs",
@@ -327,7 +327,7 @@
       "versions": [
         {
           "version": "0.2.0",
-          "created": "2019-09-03",
+          "created": "2019-08-18",
           "notes": "Works in VR, faster preview, choose resolution",
           "files": [
             {
@@ -342,7 +342,7 @@
         },
         {
           "version": "0.1.0",
-          "created": "2019-09-03",
+          "created": "2019-08-16",
           "files": [
             {
               "filename": "MacGruber_SuperResolution.cs",
