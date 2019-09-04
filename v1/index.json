@@ -6,6 +6,11 @@
       "github": "https://github.com/acidbubbles"
     },
     {
+      "name": "Extraltodeus",
+      "reddit": "https://www.reddit.com/user/Extraltodeus/",
+      "github": "https://github.com/extraltodeus"
+    },
+    {
       "name": "MacGruber",
       "reddit": "https://www.reddit.com/user/MacGruber_VR/"
     },
@@ -92,6 +97,74 @@
               "hash": {
                 "type": "sha256",
                 "value": "3BBC524314202ECEB7F4C34EE68B15773622494256A43AD117ED6089C043B7E8"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "expression-randomizer",
+      "description": "Randomizes morphs for a more realistic idle",
+      "tags": ["morphs", "expression", "random"],
+      "author": "Extraltodeus",
+      "homepage": "https://www.reddit.com/r/VAMscenes/comments/b8v8ni/expression_randomizer_17_trigger_update/",
+      "versions": [
+        {
+          "version": "1.5.0",
+          "created": "2019-09-04",
+          "notes": "Smooth moves and return to 0 expressions",
+          "files": [
+            {
+              "filename": "ExpressionRandomizer - 1.5.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/01db3842b0ca4cc91e9c8cb896bb59febf4c0309/Scripts/Extraltodeus/expression-randomizer/ExpressionRandomizer - 1.5.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "F6CEF7D7A3769B35C05BF709C831049F1B44FF2C94CF8A824C571CB62899DEA7"
+              }
+            }
+          ]
+        },
+        {
+          "version": "1.1.0",
+          "created": "2019-09-03",
+          "notes": "Stability and performance update!",
+          "files": [
+            {
+              "filename": "ExpressionRandomizer.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/f82ce2ff4eb36e02b46c1930c60ced05d52ba535/Scripts/Extraltodeus/expression-randomizer/ExpressionRandomizer.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "EE70FCC590A7E727CEF5BA02A8CF721FF440F25B4A1EDF37783D772EDAF7AA25"
+              }
+            }
+          ]
+        },
+        {
+          "version": "1.0.0",
+          "created": "2019-09-03",
+          "files": [
+            {
+              "filename": "ExpressionRandomizer.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/a0910d6990b000969880a5f84985f42e8051afe8/Scripts/Extraltodeus/expression-randomizer/ExpressionRandomizer.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "4DF5EA9AB80F850E9884A2AA4010C1486C9F80002DFC7DF4CB5EFDE581AE76C2"
+              }
+            }
+          ]
+        },
+        {
+          "version": "1.7.0",
+          "created": "2019-09-04",
+          "notes": "Trigger update!",
+          "files": [
+            {
+              "filename": "ExpressionRandomizer_1.7.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/05050155af8e056eefd5997e4533c222fdf933b1/Scripts/Extraltodeus/expression-randomizer/ExpressionRandomizer_1.7.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "D5558CD419C8D46BDC958064CB97F963D1EA793866414C025906EC15033512ED"
               }
             }
           ]
