@@ -27,7 +27,7 @@
       "reddit": "https://www.reddit.com/user/VRAdultFun/"
     }
   ],
-  "scripts": [
+  "packages": [
     {
       "name": "camera-nearclipplane-controller",
       "description": "Changes the camera clip plane, to see through walls for example",
