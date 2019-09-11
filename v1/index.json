@@ -19,15 +19,20 @@
       "reddit": "https://www.reddit.com/user/Driftdawg/"
     },
     {
+      "name": "VRAdultFun",
+      "reddit": "https://www.reddit.com/user/VRAdultFun/"
+    },
+    {
       "name": "VariousScientists",
       "reddit": "https://www.reddit.com/user/VariousScientists42/"
     },
     {
-      "name": "VRAdultFun",
-      "reddit": "https://www.reddit.com/user/VRAdultFun/"
+      "name": "vamtaco",
+      "reddit": "https://www.reddit.com/user/vamtaco",
+      "github": "https://github.com/vamtaco"
     }
   ],
-  "scripts": [
+  "packages": [
     {
       "name": "camera-nearclipplane-controller",
       "description": "Changes the camera clip plane, to see through walls for example",
@@ -184,18 +189,6 @@
               "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah9.wav"
             },
             {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast1.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast2.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast3.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast4.wav"
-            },
-            {
               "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In1.wav"
             },
             {
@@ -212,6 +205,18 @@
             },
             {
               "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In6.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast1.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast2.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast3.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast4.wav"
             },
             {
               "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm1.wav"
@@ -373,12 +378,6 @@
               "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_Out_Long4.wav"
             },
             {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss_Mmm1.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss_Mmm2.wav"
-            },
-            {
               "localPath": "Saves/scripts/E-Motion/Sounds/Kiss1.wav"
             },
             {
@@ -407,6 +406,12 @@
             },
             {
               "localPath": "Saves/scripts/E-Motion/Sounds/Kiss9.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss_Mmm1.wav"
+            },
+            {
+              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss_Mmm2.wav"
             },
             {
               "filename": "StateMachine.cs",
@@ -1303,6 +1308,20 @@
           ]
         },
         {
+          "version": "1.7.0",
+          "created": "2019-09-05",
+          "files": [
+            {
+              "filename": "ExpressionRandomizer_1.7.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/4bb0780b4358ebf35d13f43257760c03c2027ff3/Scripts/expression-randomizer/1.7.0/ExpressionRandomizer_1.7.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "9FA7C42FB6220BE7B7FB1096387A77E9AB0EA17910B5B561EB15929CFF93BAFC"
+              }
+            }
+          ]
+        },
+        {
           "version": "1.6.0",
           "created": "2019-09-05",
           "files": [
@@ -1356,20 +1375,6 @@
               "hash": {
                 "type": "sha256",
                 "value": "4DF5EA9AB80F850E9884A2AA4010C1486C9F80002DFC7DF4CB5EFDE581AE76C2"
-              }
-            }
-          ]
-        },
-        {
-          "version": "1.7.0",
-          "created": "2019-09-05",
-          "files": [
-            {
-              "filename": "ExpressionRandomizer_1.7.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/4bb0780b4358ebf35d13f43257760c03c2027ff3/Scripts/expression-randomizer/1.7.0/ExpressionRandomizer_1.7.cs",
-              "hash": {
-                "type": "sha256",
-                "value": "9FA7C42FB6220BE7B7FB1096387A77E9AB0EA17910B5B561EB15929CFF93BAFC"
               }
             }
           ]
@@ -1853,6 +1858,29 @@
               "hash": {
                 "type": "sha256",
                 "value": "BB44415FA0AD47180989D2260A067FC75EDF63C2AEBBC53EE7F9F42957DF354E"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vrhands-fingering",
+      "description": "Provides simulating fingering with VR Hands.",
+      "tags": ["plugin", "finger", "fingering", "vr hands", "scene plugin"],
+      "author": "vamtaco",
+      "repository": "https://github.com/vamtaco/vam-scripts",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "created": "2019-09-10",
+          "files": [
+            {
+              "filename": "VRHandsFingering.cs",
+              "url": "https://github.com/vamtaco/vam-scripts/raw/33b1e563b59c0d32c580d8142915c6e63ce3a6bd/Fingering/VRHandsFingering.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "B576B5B72CFB34F736ACA5FEBDB8EE45A3B689FEB335004CC6C5801CBCAEE2FE"
               }
             }
           ]
