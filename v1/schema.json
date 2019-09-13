@@ -1,33 +1,27 @@
 {
-  "definitions": {},
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/vam-community/vam-registry/v1/schema.json",
   "type": "object",
   "title": "Virt-A-Mate scripts registry",
-  "required": ["authors", "scripts"],
+  "required": ["authors", "packages"],
   "additionalProperties": false,
   "properties": {
     "authors": {
-      "$id": "#/properties/authors",
       "type": "array",
-      "title": "Script Authors",
+      "title": "Package authors",
       "items": {
-        "$id": "#/properties/authors/items",
         "type": "object",
-        "title": "Script Authors",
+        "title": "Package authors list",
         "required": ["name"],
         "additionalProperties": false,
         "properties": {
           "name": {
-            "$id": "#/properties/authors/items/properties/name",
             "type": "string",
-            "title": "Author name (matched with Sript[].Author)",
+            "title": "Author name (matched with package's Author)",
             "default": "",
-            "examples": ["Acidbubbles"],
+            "examples": ["John Doe"],
             "pattern": "^(.*)$"
           },
           "github": {
-            "$id": "#/properties/authors/items/properties/github",
             "type": "string",
             "title": "A link to the GitHub profile",
             "default": "",
@@ -35,7 +29,6 @@
             "pattern": "^(.*)$"
           },
           "reddit": {
-            "$id": "#/properties/authors/items/properties/reddit",
             "type": "string",
             "title": "A link to the Reddit profile",
             "default": "",
@@ -45,172 +38,196 @@
         }
       }
     },
-    "scripts": {
-      "$id": "#/properties/scripts",
-      "type": "array",
-      "title": "Scripts (a.k.a. packages, or plugins)",
-      "items": {
-        "$id": "#/properties/scripts/items",
-        "type": "object",
-        "title": "Scripts",
-        "required": ["name", "author", "versions"],
-        "additionalProperties": false,
-        "properties": {
-          "name": {
-            "$id": "#/properties/scripts/items/properties/name",
+    "packages": {
+      "type": "object",
+      "title": "Packages",
+      "additionalProperties": false,
+      "properties": {
+        "scripts": {
+          "type": "array",
+          "title": "Scripts (a.k.a. plugins)",
+          "items": {
+            "$ref": "#/definitions/package"
+          }
+        },
+        "morphs": {
+          "type": "array",
+          "title": "Morphs",
+          "items": {
+            "$ref": "#/definitions/package"
+          }
+        },
+        "clothing": {
+          "type": "array",
+          "title": "Clothing items",
+          "items": {
+            "$ref": "#/definitions/package"
+          }
+        },
+        "textures": {
+          "type": "array",
+          "title": "Textures",
+          "items": {
+            "$ref": "#/definitions/package"
+          }
+        },
+        "assets": {
+          "type": "array",
+          "title": "Assets (i.e. assetbundles)",
+          "items": {
+            "$ref": "#/definitions/package"
+          }
+        },
+        "scenes": {
+          "type": "array",
+          "title": "Scenes",
+          "items": {
+            "$ref": "#/definitions/package"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "package": {
+      "type": "object",
+      "title": "Scripts",
+      "required": ["name", "author", "versions"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "title": "Script name",
+          "default": "",
+          "examples": ["my-plugin"],
+          "pattern": "^[a-z][a-z0-9\\-_]{2,127}$"
+        },
+        "description": {
+          "type": "string",
+          "title": "A short description of the script",
+          "default": "",
+          "examples": ["This script does some cool stuff"],
+          "pattern": "^(.*)$"
+        },
+        "tags": {
+          "type": "array",
+          "title": "The Tags Schema",
+          "items": {
             "type": "string",
-            "title": "Script name",
+            "title": "Tags to help find your script",
             "default": "",
-            "examples": ["my-plugin"],
-            "pattern": "^[a-z][a-z0-9\\-_]{2,127}$"
-          },
-          "description": {
-            "$id": "#/properties/scripts/items/properties/description",
-            "type": "string",
-            "title": "A short description of the script",
-            "default": "",
-            "examples": ["This script does some cool stuff"],
-            "pattern": "^(.*)$"
-          },
-          "tags": {
-            "$id": "#/properties/scripts/items/properties/tags",
-            "type": "array",
-            "title": "The Tags Schema",
-            "items": {
-              "$id": "#/properties/scripts/items/properties/tags/items",
-              "type": "string",
-              "title": "Tags to help find your script",
-              "default": "",
-              "examples": ["something", "multiple words"],
-              "pattern": "^[a-z0-9\\-_]{2,64}$"
-            }
-          },
-          "author": {
-            "$id": "#/properties/scripts/items/properties/author",
-            "type": "string",
-            "title": "The author name (links with Authors[].Name)",
-            "default": "",
-            "examples": ["Some User"],
-            "pattern": "^(.*)$"
-          },
-          "homepage": {
-            "$id": "#/properties/scripts/items/properties/homepage",
-            "type": "string",
-            "title": "The url to the homepage of your script (e.g. a reddit link)",
-            "default": "",
-            "examples": ["https://www.reddit.com/r/VAMscenes/..."],
-            "pattern": "^(.*)$"
-          },
-          "repository": {
-            "$id": "#/properties/scripts/items/properties/repository",
-            "type": "string",
-            "title": "The url to the repository of your script (e.g. a github link)",
-            "default": "",
-            "examples": ["https://github.com/..."],
-            "pattern": "^(.*)$"
-          },
-          "versions": {
-            "$id": "#/properties/scripts/items/properties/versions",
-            "type": "array",
-            "title": "All versions of this script",
-            "items": {
-              "$id": "#/properties/scripts/items/properties/versions/items",
-              "type": "object",
-              "title": "Versions",
-              "required": ["version", "created", "files"],
-              "additionalProperties": false,
-              "properties": {
-                "version": {
-                  "$id": "#/properties/scripts/items/properties/versions/items/properties/version",
-                  "type": "string",
-                  "title": "The version name",
-                  "default": "",
-                  "examples": ["2.0.4", "1.0.0-alpha1"],
-                  "pattern": "^(0|[1-9][0-9]{0,3})\\.(0|[1-9][0-9]{0,3})\\.(0|[1-9][0-9]{0,3})(-([a-z0-9]{1,32}))?$"
-                },
-                "notes": {
-                  "$id": "#/properties/scripts/items/properties/versions/items/properties/notes",
-                  "type": "string",
-                  "title": "Short release notes",
-                  "default": "",
-                  "examples": ["Bug fixes"],
-                  "pattern": "^(.*)$"
-                },
-                "created": {
-                  "$id": "#/properties/scripts/items/properties/versions/items/properties/created",
-                  "type": "string",
-                  "title": "When was this specific version created and published",
-                  "default": "",
-                  "examples": ["2019-07-31"],
-                  "pattern": "^2\\d{3}-\\d{2}-\\d{2}$"
-                },
-                "files": {
-                  "$id": "#/properties/scripts/items/properties/versions/items/properties/files",
-                  "type": "array",
-                  "title": "All files contained in this version",
-                  "items": {
-                    "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items",
-                    "type": "object",
-                    "title": "Files",
-                    "required": [],
-                    "additionalProperties": false,
-                    "properties": {
-                      "filename": {
-                        "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/filename",
-                        "type": "string",
-                        "title": "The filename, relative to the root of the script's folder",
-                        "default": "",
-                        "examples": ["My Script.cs"],
-                        "pattern": "^(.+)\\.(cs|cslist)$"
-                      },
-                      "localPath": {
-                        "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/localPath",
-                        "type": "string",
-                        "title": "The target path, relative to Virt-A-Mate's install directory",
-                        "default": "",
-                        "examples": ["Import/morphs/female/Some Morph.dsf"],
-                        "pattern": "^[a-zA-Z0-9_\\-\\./]+$"
-                      },
-                      "url": {
-                        "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/url",
-                        "type": "string",
-                        "title": "The url to download this file",
-                        "default": "",
-                        "examples": [
-                          "https://example.org/download/my-script/v1.0.0/My%20Script.cs"
-                        ],
-                        "pattern": "^(.*)$"
-                      },
-                      "ignore": {
-                        "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/ignore",
-                        "type": "boolean",
-                        "title": "Whether to skip this file; this is useful to match scripts packages in .vac files, but that should not be downloaded",
-                        "default": false
-                      },
-                      "hash": {
-                        "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/hash",
-                        "type": "object",
-                        "title": "A hash of this file, where only non-empty lines are considered and joined using \\n",
-                        "required": ["type", "value"],
-                        "properties": {
-                          "type": {
-                            "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/hash/properties/type",
-                            "type": "string",
-                            "title": "The hashing method",
-                            "default": "",
-                            "examples": ["sha256"],
-                            "pattern": "^(.*)$"
-                          },
-                          "value": {
-                            "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/hash/properties/value",
-                            "type": "string",
-                            "title": "The hash",
-                            "default": "",
-                            "examples": [
-                              "814E416E6D2F517A35ADFE21CBD9589BC9D8BE9C9911AABA97B40578C9EECCA6"
-                            ],
-                            "pattern": "^[A-Z0-9]{64}$"
-                          }
+            "examples": ["something", "multiple words"],
+            "pattern": "^[a-z0-9\\-_]{2,64}$"
+          }
+        },
+        "author": {
+          "type": "string",
+          "title": "The author name (links with Authors[].Name)",
+          "default": "",
+          "examples": ["Some User"],
+          "pattern": "^(.*)$"
+        },
+        "homepage": {
+          "type": "string",
+          "title": "The url to the homepage of your script (e.g. a reddit link)",
+          "default": "",
+          "examples": ["https://www.reddit.com/r/VAMscenes/..."],
+          "pattern": "^(.*)$"
+        },
+        "repository": {
+          "type": "string",
+          "title": "The url to the repository of your script (e.g. a github link)",
+          "default": "",
+          "examples": ["https://github.com/..."],
+          "pattern": "^(.*)$"
+        },
+        "versions": {
+          "type": "array",
+          "title": "All versions of this script",
+          "items": {
+            "type": "object",
+            "title": "Versions",
+            "required": ["version", "created", "files"],
+            "additionalProperties": false,
+            "properties": {
+              "version": {
+                "type": "string",
+                "title": "The version name",
+                "default": "",
+                "examples": ["2.0.4", "1.0.0-alpha1"],
+                "pattern": "^(0|[1-9][0-9]{0,3})\\.(0|[1-9][0-9]{0,3})\\.(0|[1-9][0-9]{0,3})(-([a-z0-9]{1,32}))?$"
+              },
+              "notes": {
+                "type": "string",
+                "title": "Short release notes",
+                "default": "",
+                "examples": ["Bug fixes"],
+                "pattern": "^(.*)$"
+              },
+              "created": {
+                "type": "string",
+                "title": "When was this specific version created and published",
+                "default": "",
+                "examples": ["2019-07-31"],
+                "pattern": "^2\\d{3}-\\d{2}-\\d{2}$"
+              },
+              "files": {
+                "type": "array",
+                "title": "All files contained in this version",
+                "items": {
+                  "type": "object",
+                  "title": "Files",
+                  "required": [],
+                  "additionalProperties": false,
+                  "properties": {
+                    "filename": {
+                      "type": "string",
+                      "title": "The filename, relative to the root of the package folder",
+                      "default": "",
+                      "examples": ["My Script.cs"],
+                      "pattern": "^(.+)\\.(cs|cslist)$"
+                    },
+                    "localPath": {
+                      "type": "string",
+                      "title": "The target path, relative to Virt-A-Mate's install directory (mostly used for legacy packages)",
+                      "default": "",
+                      "examples": ["Import/morphs/female/Some Morph.dsf"],
+                      "pattern": "^[a-zA-Z0-9_\\-\\./]+$"
+                    },
+                    "url": {
+                      "type": "string",
+                      "title": "The url to download this file",
+                      "default": "",
+                      "examples": [
+                        "https://example.org/download/my-script/v1.0.0/My%20Script.cs"
+                      ],
+                      "pattern": "^https(.*)$"
+                    },
+                    "ignore": {
+                      "type": "boolean",
+                      "title": "Whether to skip this file; this is useful to match scripts packages in .vac files, but that should not be downloaded",
+                      "default": false
+                    },
+                    "hash": {
+                      "type": "object",
+                      "title": "A hash of this file, where only non-empty lines are considered and joined using \\n",
+                      "required": ["type", "value"],
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "title": "The hashing method",
+                          "default": "",
+                          "examples": ["sha256"],
+                          "pattern": "^(sha256)$"
+                        },
+                        "value": {
+                          "type": "string",
+                          "title": "The hash",
+                          "default": "",
+                          "examples": [
+                            "814E416E6D2F517A35ADFE21CBD9589BC9D8BE9C9911AABA97B40578C9EECCA6"
+                          ],
+                          "pattern": "^[A-Z0-9]{64}$"
                         }
                       }
                     }
