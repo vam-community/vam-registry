@@ -32,7 +32,7 @@
       "github": "https://github.com/vamtaco"
     }
   ],
-  "packages": [
+  "scripts": [
     {
       "name": "camera-nearclipplane-controller",
       "description": "Changes the camera clip plane, to see through walls for example",

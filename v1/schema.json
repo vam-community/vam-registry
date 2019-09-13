@@ -45,19 +45,19 @@
         }
       }
     },
-    "packages": {
+    "scripts": {
       "$id": "#/properties/scripts",
       "type": "array",
-      "title": "Packages (includes scripts/plugins, morphs, clothing, scenes, etc.)",
+      "title": "Scripts (a.k.a. packages, or plugins)",
       "items": {
-        "$id": "#/properties/packages/items",
+        "$id": "#/properties/scripts/items",
         "type": "object",
-        "title": "Packages List",
+        "title": "Scripts",
         "required": ["name", "author", "versions"],
         "additionalProperties": false,
         "properties": {
           "name": {
-            "$id": "#/properties/packages/items/properties/name",
+            "$id": "#/properties/scripts/items/properties/name",
             "type": "string",
             "title": "Script name",
             "default": "",
@@ -65,7 +65,7 @@
             "pattern": "^[a-z][a-z0-9\\-_]{2,127}$"
           },
           "description": {
-            "$id": "#/properties/packages/items/properties/description",
+            "$id": "#/properties/scripts/items/properties/description",
             "type": "string",
             "title": "A short description of the script",
             "default": "",
@@ -73,11 +73,11 @@
             "pattern": "^(.*)$"
           },
           "tags": {
-            "$id": "#/properties/packages/items/properties/tags",
+            "$id": "#/properties/scripts/items/properties/tags",
             "type": "array",
             "title": "The Tags Schema",
             "items": {
-              "$id": "#/properties/packages/items/properties/tags/items",
+              "$id": "#/properties/scripts/items/properties/tags/items",
               "type": "string",
               "title": "Tags to help find your script",
               "default": "",
@@ -86,7 +86,7 @@
             }
           },
           "author": {
-            "$id": "#/properties/packages/items/properties/author",
+            "$id": "#/properties/scripts/items/properties/author",
             "type": "string",
             "title": "The author name (links with Authors[].Name)",
             "default": "",
@@ -94,7 +94,7 @@
             "pattern": "^(.*)$"
           },
           "homepage": {
-            "$id": "#/properties/packages/items/properties/homepage",
+            "$id": "#/properties/scripts/items/properties/homepage",
             "type": "string",
             "title": "The url to the homepage of your script (e.g. a reddit link)",
             "default": "",
@@ -102,7 +102,7 @@
             "pattern": "^(.*)$"
           },
           "repository": {
-            "$id": "#/properties/packages/items/properties/repository",
+            "$id": "#/properties/scripts/items/properties/repository",
             "type": "string",
             "title": "The url to the repository of your script (e.g. a github link)",
             "default": "",
@@ -110,18 +110,18 @@
             "pattern": "^(.*)$"
           },
           "versions": {
-            "$id": "#/properties/packages/items/properties/versions",
+            "$id": "#/properties/scripts/items/properties/versions",
             "type": "array",
             "title": "All versions of this script",
             "items": {
-              "$id": "#/properties/packages/items/properties/versions/items",
+              "$id": "#/properties/scripts/items/properties/versions/items",
               "type": "object",
               "title": "Versions",
               "required": ["version", "created", "files"],
               "additionalProperties": false,
               "properties": {
                 "version": {
-                  "$id": "#/properties/packages/items/properties/versions/items/properties/version",
+                  "$id": "#/properties/scripts/items/properties/versions/items/properties/version",
                   "type": "string",
                   "title": "The version name",
                   "default": "",
@@ -129,7 +129,7 @@
                   "pattern": "^(0|[1-9][0-9]{0,3})\\.(0|[1-9][0-9]{0,3})\\.(0|[1-9][0-9]{0,3})(-([a-z0-9]{1,32}))?$"
                 },
                 "notes": {
-                  "$id": "#/properties/packages/items/properties/versions/items/properties/notes",
+                  "$id": "#/properties/scripts/items/properties/versions/items/properties/notes",
                   "type": "string",
                   "title": "Short release notes",
                   "default": "",
@@ -137,7 +137,7 @@
                   "pattern": "^(.*)$"
                 },
                 "created": {
-                  "$id": "#/properties/packages/items/properties/versions/items/properties/created",
+                  "$id": "#/properties/scripts/items/properties/versions/items/properties/created",
                   "type": "string",
                   "title": "When was this specific version created and published",
                   "default": "",
@@ -145,18 +145,18 @@
                   "pattern": "^2\\d{3}-\\d{2}-\\d{2}$"
                 },
                 "files": {
-                  "$id": "#/properties/packages/items/properties/versions/items/properties/files",
+                  "$id": "#/properties/scripts/items/properties/versions/items/properties/files",
                   "type": "array",
                   "title": "All files contained in this version",
                   "items": {
-                    "$id": "#/properties/packages/items/properties/versions/items/properties/files/items",
+                    "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items",
                     "type": "object",
                     "title": "Files",
                     "required": [],
                     "additionalProperties": false,
                     "properties": {
                       "filename": {
-                        "$id": "#/properties/packages/items/properties/versions/items/properties/files/items/properties/filename",
+                        "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/filename",
                         "type": "string",
                         "title": "The filename, relative to the root of the script's folder",
                         "default": "",
@@ -164,7 +164,7 @@
                         "pattern": "^(.+)\\.(cs|cslist)$"
                       },
                       "localPath": {
-                        "$id": "#/properties/packages/items/properties/versions/items/properties/files/items/properties/localPath",
+                        "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/localPath",
                         "type": "string",
                         "title": "The target path, relative to Virt-A-Mate's install directory",
                         "default": "",
@@ -172,7 +172,7 @@
                         "pattern": "^[a-zA-Z0-9_\\-\\./]+$"
                       },
                       "url": {
-                        "$id": "#/properties/packages/items/properties/versions/items/properties/files/items/properties/url",
+                        "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/url",
                         "type": "string",
                         "title": "The url to download this file",
                         "default": "",
@@ -182,19 +182,19 @@
                         "pattern": "^(.*)$"
                       },
                       "ignore": {
-                        "$id": "#/properties/packages/items/properties/versions/items/properties/files/items/properties/ignore",
+                        "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/ignore",
                         "type": "boolean",
                         "title": "Whether to skip this file; this is useful to match scripts packages in .vac files, but that should not be downloaded",
                         "default": false
                       },
                       "hash": {
-                        "$id": "#/properties/packages/items/properties/versions/items/properties/files/items/properties/hash",
+                        "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/hash",
                         "type": "object",
                         "title": "A hash of this file, where only non-empty lines are considered and joined using \\n",
                         "required": ["type", "value"],
                         "properties": {
                           "type": {
-                            "$id": "#/properties/packages/items/properties/versions/items/properties/files/items/properties/hash/properties/type",
+                            "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/hash/properties/type",
                             "type": "string",
                             "title": "The hashing method",
                             "default": "",
@@ -202,7 +202,7 @@
                             "pattern": "^(.*)$"
                           },
                           "value": {
-                            "$id": "#/properties/packages/items/properties/versions/items/properties/files/items/properties/hash/properties/value",
+                            "$id": "#/properties/scripts/items/properties/versions/items/properties/files/items/properties/hash/properties/value",
                             "type": "string",
                             "title": "The hash",
                             "default": "",
