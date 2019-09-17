@@ -55,17 +55,17 @@
       "properties": {
         "type": {
           "type": "string",
-          "title": " Package type",
+          "title": "Type of package",
           "default": "",
           "examples": ["scripts"],
           "pattern": "^(scripts|clothing|scenes|textures|assets|morphs)$"
         },
         "name": {
           "type": "string",
-          "title": "Package unique name",
+          "title": "Package identifier",
           "default": "",
-          "examples": ["my-plugin"],
-          "pattern": "^[a-z][a-z0-9\\-_]{2,127}$"
+          "examples": ["my-plugin", "My Scene 01"],
+          "pattern": "^[a-zA-Z][a-zA-Z0-9\\-_ ]{2,127}$"
         },
         "description": {
           "type": "string",
