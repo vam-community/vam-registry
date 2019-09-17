@@ -39,52 +39,10 @@
       }
     },
     "packages": {
-      "type": "object",
-      "title": "Packages",
-      "additionalProperties": false,
-      "properties": {
-        "scripts": {
-          "type": "array",
-          "title": "Scripts (a.k.a. plugins)",
-          "items": {
-            "$ref": "#/definitions/package"
-          }
-        },
-        "morphs": {
-          "type": "array",
-          "title": "Morphs",
-          "items": {
-            "$ref": "#/definitions/package"
-          }
-        },
-        "clothing": {
-          "type": "array",
-          "title": "Clothing items",
-          "items": {
-            "$ref": "#/definitions/package"
-          }
-        },
-        "textures": {
-          "type": "array",
-          "title": "Textures",
-          "items": {
-            "$ref": "#/definitions/package"
-          }
-        },
-        "assets": {
-          "type": "array",
-          "title": "Assets (i.e. assetbundles)",
-          "items": {
-            "$ref": "#/definitions/package"
-          }
-        },
-        "scenes": {
-          "type": "array",
-          "title": "Scenes",
-          "items": {
-            "$ref": "#/definitions/package"
-          }
-        }
+      "type": "array",
+      "title": "Packages (scripts, plugins, scenes, clothing, morphs, textures etc)",
+      "items": {
+        "$ref": "#/definitions/package"
       }
     }
   },
@@ -92,12 +50,19 @@
     "package": {
       "type": "object",
       "title": "Scripts",
-      "required": ["name", "author", "versions"],
+      "required": ["type", "name", "author", "versions"],
       "additionalProperties": false,
       "properties": {
+        "type": {
+          "type": "string",
+          "title": " Package type",
+          "default": "",
+          "examples": ["scripts"],
+          "pattern": "^(scripts|clothing|scenes|textures|assets|morphs)$"
+        },
         "name": {
           "type": "string",
-          "title": "Script name",
+          "title": "Package unique name",
           "default": "",
           "examples": ["my-plugin"],
           "pattern": "^[a-z][a-z0-9\\-_]{2,127}$"
