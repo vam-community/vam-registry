@@ -34,6 +34,7 @@
   ],
   "packages": [
     {
+      "type": "scripts",
       "name": "camera-nearclipplane-controller",
       "description": "Changes the camera clip plane, to see through walls for example",
       "tags": ["camera", "clipping", "near"],
@@ -57,6 +58,7 @@
       ]
     },
     {
+      "type": "scripts",
       "name": "director",
       "description": "Sequence camera angles using an animation pattern",
       "tags": ["animation", "camera"],
@@ -113,6 +115,7 @@
       ]
     },
     {
+      "type": "scripts",
       "name": "e-motion",
       "description": "Add a bit of life to characters in VAM and allow you to interact with them",
       "tags": ["interaction", "expression"],
@@ -1286,6 +1289,7 @@
       ]
     },
     {
+      "type": "scripts",
       "name": "expression-randomizer",
       "description": "Randomizes morphs for a more realistic idle",
       "tags": ["morphs", "expression", "random"],
@@ -1382,6 +1386,7 @@
       ]
     },
     {
+      "type": "scripts",
       "name": "forward-unity-logs",
       "description": "Prints Unity logs to the VaM messages log",
       "tags": ["dev", "tools", "debug"],
@@ -1405,6 +1410,7 @@
       ]
     },
     {
+      "type": "scripts",
       "name": "improved-pov",
       "description": "Improved PoV (Point of View) camera handling in Virt-A-Mate",
       "tags": ["possession", "person"],
@@ -1558,6 +1564,7 @@
       ]
     },
     {
+      "type": "scripts",
       "name": "look-at-me",
       "description": "Controls the eyes and looks at the camera or away",
       "tags": ["eyes", "look"],
@@ -1580,6 +1587,7 @@
       ]
     },
     {
+      "type": "scripts",
       "name": "macgruber-breathe",
       "description": "Scripted breathing with sync-animation",
       "tags": ["breathing", "sync", "animation"],
@@ -1636,6 +1644,7 @@
       ]
     },
     {
+      "type": "scripts",
       "name": "macgruber-eyes",
       "description": "Simple plugin that slowly closes eyes for a moment every now and then, overriding AutoBlink.",
       "tags": ["eyes", "animation", "blink"],
@@ -1658,6 +1667,7 @@
       ]
     },
     {
+      "type": "scripts",
       "name": "macgruber-gaze",
       "description": "Controls the head and eyes to simulate eye contact",
       "tags": ["gaze", "person"],
@@ -1680,6 +1690,7 @@
       ]
     },
     {
+      "type": "scripts",
       "name": "macgruber-super-resolution",
       "description": "Take screenshots in 8K",
       "tags": ["screenshot"],
@@ -1718,6 +1729,7 @@
       ]
     },
     {
+      "type": "scripts",
       "name": "passenger",
       "description": "You follow the possessed model's head, not the other way around",
       "tags": ["possession", "person", "camera"],
@@ -1818,6 +1830,7 @@
       ]
     },
     {
+      "type": "scripts",
       "name": "simple-gaze",
       "description": "Edit of the Gaze script by MacGruber, updated by VeeRifter and Physis; when you don't want all the bells and whistles",
       "tags": ["gaze", "person"],
@@ -1842,6 +1855,7 @@
       ]
     },
     {
+      "type": "scripts",
       "name": "timescale-controller",
       "description": "Allows triggers that affect time scale",
       "tags": ["trigger", "timescale"],
@@ -1865,6 +1879,7 @@
       ]
     },
     {
+      "type": "scripts",
       "name": "vrhands-fingering",
       "description": "Provides simulating fingering with VR Hands.",
       "tags": ["finger", "fingering", "hands"],
