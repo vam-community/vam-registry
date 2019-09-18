@@ -19,17 +19,17 @@
       "reddit": "https://www.reddit.com/user/Driftdawg/"
     },
     {
-      "name": "VRAdultFun",
-      "reddit": "https://www.reddit.com/user/VRAdultFun/"
+      "name": "vamtaco",
+      "reddit": "https://www.reddit.com/user/vamtaco",
+      "github": "https://github.com/vamtaco"
     },
     {
       "name": "VariousScientists",
       "reddit": "https://www.reddit.com/user/VariousScientists42/"
     },
     {
-      "name": "vamtaco",
-      "reddit": "https://www.reddit.com/user/vamtaco",
-      "github": "https://github.com/vamtaco"
+      "name": "VRAdultFun",
+      "reddit": "https://www.reddit.com/user/VRAdultFun/"
     }
   ],
   "packages": [
@@ -144,279 +144,6 @@
               }
             },
             {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah1.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah10.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah11.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah12.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah13.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah14.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah15.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah16.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah2.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah3.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah4.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah5.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah6.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah7.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah8.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah9.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In1.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In2.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In3.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In4.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In5.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In6.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast1.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast2.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast3.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast4.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm1.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm10.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm11.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm12.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm13.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm14.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm15.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm16.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm2.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm3.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm4.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm5.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm6.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm7.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm8.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm9.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh1.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh10.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh11.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh12.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh13.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh14.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh15.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh2.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh3.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh4.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh5.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh6.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh7.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh8.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh9.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Out1.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Out2.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Out3.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Out4.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Out5.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah1.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah2.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah3.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah4.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah5.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah6.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah7.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah8.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_In_Long1.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_In_Long2.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_In_Med1.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_In_Med2.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_In_Med3.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_Out_Long1.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_Out_Long2.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_Out_Long3.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Breath_Nose_Out_Long4.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss1.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss10.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss2.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss3.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss4.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss5.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss6.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss7.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss8.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss9.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss_Mmm1.wav"
-            },
-            {
-              "localPath": "Saves/scripts/E-Motion/Sounds/Kiss_Mmm2.wav"
-            },
-            {
               "filename": "StateMachine.cs",
               "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/StateMachine.cs",
               "hash": {
@@ -439,14 +166,6 @@
                 "type": "sha256",
                 "value": "2C82ADC9EA8B76EC48B0B238DEA36727E0386CC61D4BE28C968F21FD99499A53"
               }
-            },
-            {
-              "filename": "AttentionStates/EmotionEngine.LCasual - Copy.cs",
-              "hash": {
-                "type": "sha256",
-                "value": "7C0EBCCF92BE8E97A074819AC7FF862EAF6B336178BEC35900AA732DA2138355"
-              },
-              "ignore": true
             },
             {
               "filename": "AttentionStates/EmotionEngine.LCasual.cs",
@@ -695,6 +414,287 @@
                 "type": "sha256",
                 "value": "5B222094A7A6BAA6B4C6C85C1FA4E39EDA8AD90986CB5120F52C55B3D23589BF"
               }
+            },
+            {
+              "filename": "AttentionStates/EmotionEngine.LCasual - Copy.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "7C0EBCCF92BE8E97A074819AC7FF862EAF6B336178BEC35900AA732DA2138355"
+              },
+              "ignore": true
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah1.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah10.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah11.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah12.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah13.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah14.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah15.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah16.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah2.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah3.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah4.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah5.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah6.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah7.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah8.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Aah9.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast1.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast2.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast3.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In_Fast4.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In1.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In2.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In3.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In4.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In5.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_In6.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm1.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm10.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm11.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm12.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm13.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm14.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm15.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm16.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm2.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm3.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm4.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm5.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm6.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm7.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm8.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Mmm9.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh1.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh10.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh11.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh12.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh13.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh14.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh15.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh2.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh3.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh4.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh5.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh6.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh7.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh8.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Ooh9.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Out1.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Out2.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Out3.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Out4.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Out5.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah1.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah2.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah3.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah4.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah5.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah6.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah7.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Mouth_Yeah8.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Nose_In_Long1.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Nose_In_Long2.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Nose_In_Med1.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Nose_In_Med2.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Nose_In_Med3.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Nose_Out_Long1.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Nose_Out_Long2.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Nose_Out_Long3.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Breath_Nose_Out_Long4.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Kiss_Mmm1.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Kiss_Mmm2.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Kiss1.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Kiss10.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Kiss2.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Kiss3.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Kiss4.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Kiss5.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Kiss6.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Kiss7.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Kiss8.wav"
+            },
+            {
+              "filename": "Saves/scripts/E-Motion/Sounds/Kiss9.wav"
             }
           ]
         },
@@ -741,14 +741,6 @@
                 "type": "sha256",
                 "value": "2C82ADC9EA8B76EC48B0B238DEA36727E0386CC61D4BE28C968F21FD99499A53"
               }
-            },
-            {
-              "filename": "AttentionStates/EmotionEngine.LCasual - Copy.cs",
-              "hash": {
-                "type": "sha256",
-                "value": "7C0EBCCF92BE8E97A074819AC7FF862EAF6B336178BEC35900AA732DA2138355"
-              },
-              "ignore": true
             },
             {
               "filename": "AttentionStates/EmotionEngine.LCasual.cs",
@@ -997,6 +989,14 @@
                 "type": "sha256",
                 "value": "2B9B99515274089692B7D740977AE13C3B69F84A1ECD46904B1DC269C0691C74"
               }
+            },
+            {
+              "filename": "AttentionStates/EmotionEngine.LCasual - Copy.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "7C0EBCCF92BE8E97A074819AC7FF862EAF6B336178BEC35900AA732DA2138355"
+              },
+              "ignore": true
             }
           ]
         },
@@ -1598,16 +1598,14 @@
           "version": "1.1.0",
           "created": "2019-09-03",
           "notes": "Controlling VariableTriggers and various improvements.",
+          "dependencies": [
+            {
+              "type": "femalemorphs",
+              "name": "Upper_Body_Reloaded-Lite",
+              "files": ["Breath1.vmb", "Breath1.vmi"]
+            }
+          ],
           "files": [
-            {
-              "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.dsf"
-            },
-            {
-              "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.vmb"
-            },
-            {
-              "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.vmi"
-            },
             {
               "filename": "MacGruber_Breathe.cs",
               "url": "https://raw.githubusercontent.com/vam-community/vam-packages/5635927a1cc337fe0033bf4d89c920725043e0fd/Scripts/MacGruber/macgruber-breathe/MacGruber_Breathe.cs",
@@ -1621,6 +1619,13 @@
         {
           "version": "1.0.0",
           "created": "2019-01-25",
+          "dependencies": [
+            {
+              "type": "femalemorphs",
+              "name": "Upper_Body_Reloaded-Lite",
+              "files": ["Breath1.vmb", "Breath1.vmi"]
+            }
+          ],
           "files": [
             {
               "filename": "Breathe.cs",
@@ -1629,15 +1634,6 @@
                 "type": "sha256",
                 "value": "09396BE544FB1FAB117D65AAFDD7E016D1AB867A2F50C1D99316521AB2D0714D"
               }
-            },
-            {
-              "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.dsf"
-            },
-            {
-              "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.vmb"
-            },
-            {
-              "localPath": "Import/morphs/female/Upper_Body_Reloaded-Lite/Breath1.vmi"
             }
           ]
         }
@@ -1873,6 +1869,25 @@
                 "type": "sha256",
                 "value": "BB44415FA0AD47180989D2260A067FC75EDF63C2AEBBC53EE7F9F42957DF354E"
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "femalemorphs",
+      "name": "Upper_Body_Reloaded-Lite",
+      "author": "Unknown",
+      "versions": [
+        {
+          "version": "0.0.0",
+          "created": "2019-09-10",
+          "files": [
+            {
+              "filename": "Breath1.vmb"
+            },
+            {
+              "filename": "Breath1.vmi"
             }
           ]
         }
