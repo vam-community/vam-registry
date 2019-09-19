@@ -58,7 +58,7 @@
           "title": "Type of package",
           "default": "",
           "examples": ["scripts"],
-          "pattern": "^(scripts|clothing|scenes|textures|assets|morphs)$"
+          "pattern": "^(scripts|clothing|scenes|textures|assets|malemorphs|femalemorphs)$"
         },
         "name": {
           "type": "string",
@@ -136,13 +136,54 @@
                 "examples": ["2019-07-31"],
                 "pattern": "^2\\d{3}-\\d{2}-\\d{2}$"
               },
+              "dependencies": {
+                "type": "array",
+                "title": "Packages this depends on",
+                "items": {
+                  "type": "object",
+                  "title": "Dependency",
+                  "required": ["type", "name"],
+                  "additionalProperties": false,
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "title": "Type of package",
+                      "default": "",
+                      "examples": ["scripts"],
+                      "pattern": "^(scripts|clothing|scenes|textures|assets|malemorphs|femalemorphs)$"
+                    },
+                    "name": {
+                      "type": "string",
+                      "title": "Package identifier",
+                      "default": "",
+                      "examples": ["my-plugin", "My Scene 01"],
+                      "pattern": "^[a-zA-Z][a-zA-Z0-9\\-_ ]{2,127}$"
+                    },
+                    "version": {
+                      "type": "string",
+                      "title": "The version name (optional)",
+                      "default": "",
+                      "examples": ["2.0.4", "1.0.0-alpha1"],
+                      "pattern": "^(0|[1-9][0-9]{0,3})\\.(0|[1-9][0-9]{0,3})\\.(0|[1-9][0-9]{0,3})(-([a-z0-9]{1,32}))?$"
+                    },
+                    "files": {
+                      "type": "array",
+                      "title": "Optional list of specific files the package depends on",
+                      "items": {
+                        "type": "string",
+                        "title": "Filename (should be the same as the target package"
+                      }
+                    }
+                  }
+                }
+              },
               "files": {
                 "type": "array",
                 "title": "All files contained in this version",
                 "items": {
                   "type": "object",
                   "title": "Files",
-                  "required": [],
+                  "required": ["filename"],
                   "additionalProperties": false,
                   "properties": {
                     "filename": {
@@ -150,14 +191,7 @@
                       "title": "The filename, relative to the root of the package folder",
                       "default": "",
                       "examples": ["My Script.cs"],
-                      "pattern": "^(.+)\\.(cs|cslist)$"
-                    },
-                    "localPath": {
-                      "type": "string",
-                      "title": "The target path, relative to Virt-A-Mate's install directory (mostly used for legacy packages)",
-                      "default": "",
-                      "examples": ["Import/morphs/female/Some Morph.dsf"],
-                      "pattern": "^[a-zA-Z0-9_\\-\\./]+$"
+                      "pattern": "^/?([^/:\"*?|<>.]+/)*([^/:\"*?|<>.]+.)+[a-z]+$"
                     },
                     "url": {
                       "type": "string",
