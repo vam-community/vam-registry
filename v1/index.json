@@ -1839,42 +1839,42 @@
           "created": "2019-09-18",
           "files": [
             {
-              "filename": "CycleForce.cs",
+              "filename": "/Saves/Scripts/MeshedVR/CycleForce.cs",
               "hash": {
                 "type": "sha256",
                 "value": "D5989B3D6A5FE6E4CEF60A5795B635E44E5D980BD8F720960E97F9354865B544"
               }
             },
             {
-              "filename": "FloatParamRandomizer.cs",
+              "filename": "/Saves/Scripts/MeshedVR/FloatParamRandomizer.cs",
               "hash": {
                 "type": "sha256",
                 "value": "CAA68B7B20963B38FBB95A020B8F93E451E7E8B47974A63CFDF08A5BB223A633"
               }
             },
             {
-              "filename": "ShowSelectedControllerHUD.cs",
+              "filename": "/Saves/Scripts/MeshedVR/ShowSelectedControllerHUD.cs",
               "hash": {
                 "type": "sha256",
                 "value": "A1C6885B89028919CC4727C5598B174278C182712B4E8172769A5880AA0E2950"
               }
             },
             {
-              "filename": "Template.cs",
+              "filename": "/Saves/Scripts/MeshedVR/Template.cs",
               "hash": {
                 "type": "sha256",
                 "value": "A08F3A6A77F311AA1D30CB0036418F0ABEA1693F2D5D084152F50303D525045E"
               }
             },
             {
-              "filename": "TemplateWithSamples.cs",
+              "filename": "/Saves/Scripts/MeshedVR/TemplateWithSamples.cs",
               "hash": {
                 "type": "sha256",
                 "value": "CE6A1258D80D4DEE0E13AB4F119C85BD385DA82708760E93E4AC2B9043770212"
               }
             },
             {
-              "filename": "Test1.cs",
+              "filename": "/Saves/Scripts/MeshedVR/Test1.cs",
               "hash": {
                 "type": "sha256",
                 "value": "AB4E278C826EA3E1C131D962CAD2A6461089463D5B3A82C1B77C324135C4872C"
