@@ -136,6 +136,13 @@
                 "examples": ["2019-07-31"],
                 "pattern": "^2\\d{3}-\\d{2}-\\d{2}$"
               },
+              "downloadUrl": {
+                "type": "string",
+                "title": "The url where this version can be downloaded",
+                "default": "",
+                "examples": ["https://mega.nz/..."],
+                "pattern": "^(.*)$"
+              },
               "dependencies": {
                 "type": "array",
                 "title": "Packages this depends on",
