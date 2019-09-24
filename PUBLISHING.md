@@ -100,12 +100,20 @@ When your plugin requires non-code files (such as `.wav` files), you can specify
 
     ...
     {
-      "localPath": "Import/morphs/female/My Required Morph.dsf"
+      "localPath": "/Custom/atom/person/morphs/female/My Required Morph.dsf"
     },
     ...
 
-By doing so, you'll prevent users from automatically installing the plugin, unless they already have those files. Otherwise the `homepage` link will be displayed so the can download it manually. If however they do have the files, it'll upgrade just fine.
+By doing so, you'll prevent users from automatically installing the plugin, unless they already have those files. Otherwise the `downloadUrl` link will be displayed so the can download it manually. If however they do have the files, it'll upgrade just fine.
 
 ### Files included in .vac by error
 
 If you included a file by error in `.vac` files, you'll probably want them to still be linked to your plugin, but not downloaded when people install it manually. You can do this by adding `"ignore": true` to your file. This also means that when this file is missing, the plugin will still be considered correct.
+
+### Dependencies
+
+You can specify dependencies, so if multiple plugins depend on a set of morphs, you can create a package for these morphs, and depend on that package instead. Search for `dependencies` for examples.
+
+### Non-downloadable packages
+
+You can specify a hash but no download URL if you want. This will allow identifying the script, and can be useful when you may have older versions you don't want to re-publish, but still have them show up when running `party status`.
