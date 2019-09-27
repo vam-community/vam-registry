@@ -1333,10 +1333,10 @@
           "files": [
             {
               "filename": "ExpressionRandomizer_1.7.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/05050155af8e056eefd5997e4533c222fdf933b1/Scripts/Extraltodeus/expression-randomizer/ExpressionRandomizer_1.7.cs",
+              "url": "https://github.com/vam-community/vam-packages/raw/5e7b73907ede699f544a2c224365131811c57fdd/Scripts/Extraltodeus/expression-randomizer/1.7.1/ExpressionRandomizer_1.7.cs",
               "hash": {
                 "type": "sha256",
-                "value": "D5558CD419C8D46BDC958064CB97F963D1EA793866414C025906EC15033512ED"
+                "value": "F312A9CC6379455BC9B25E8D1B500C87832F144A918CA8616C3695164FCA91DA"
               }
             }
           ]
