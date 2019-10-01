@@ -1617,6 +1617,30 @@
     },
     {
       "type": "scripts",
+      "name": "keyboard-triggers",
+      "description": "Executes triggers when receiving keypresses",
+      "tags": ["keyboard", "bind", "shortcut"],
+      "author": "Acidbubbles",
+      "repository": "https://github.com/acidbubbles/vam-keyboard-triggers",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "created": "2019-09-30",
+          "files": [
+            {
+              "filename": "KeyboardTriggers.cs",
+              "url": "https://github.com/acidbubbles/vam-keyboard-triggers/raw/f94007a43d7c280b88f057084d144ef47b6b26a6/KeyboardTriggers.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "35781E6B7BBAA5B4E71C589EA5968BCEAB8CF0ADBCFE3143ECD8AC64F351DE32"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "scripts",
       "name": "look-at-me",
       "description": "Controls the eyes and looks at the camera or away",
       "tags": ["eyes", "look"],
