@@ -19,6 +19,11 @@
       "reddit": "https://www.reddit.com/user/meshedvr/"
     },
     {
+      "name": "ProjectCanyon",
+      "reddit": "https://www.reddit.com/user/project-canyon",
+      "github": "https://github.com/ProjectCanyon"
+    },
+    {
       "name": "Spacedog",
       "reddit": "https://www.reddit.com/user/Driftdawg/"
     },
@@ -1807,6 +1812,32 @@
               "hash": {
                 "type": "sha256",
                 "value": "38670A61AB296AE52A2B25B5087611EA79914FD19FED03D3930E04CB29A19F81"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "scripts",
+      "name": "morph-merger",
+      "description": "Combine your look into one morph by merging your morphs.",
+      "tags": ["morphs", "morph", "merge", "look", "looks"],
+      "author": "ProjectCanyon",
+      "homepage": "https://github.com/ProjectCanyon/morph-merger",
+      "repository": "https://github.com/ProjectCanyon/morph-merger.git",
+      "versions": [
+        {
+          "version": "1.0.5",
+          "created": "2019-10-01",
+          "downloadUrl": "https://raw.githubusercontent.com/ProjectCanyon/morph-merger/releases/release-1-0-5/MorphMerger.cs",
+          "files": [
+            {
+              "filename": "MorphMerger.cs",
+              "url": "https://raw.githubusercontent.com/ProjectCanyon/morph-merger/releases/release-1-0-5/MorphMerger.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "708905AD2D30220CB66EFB2B8CBEB7E3AA834BA346CCF28BE1547129B768C30C"
               }
             }
           ]
