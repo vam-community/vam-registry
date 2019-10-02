@@ -82,7 +82,7 @@
           "files": [
             {
               "filename": "CameraNearClipPlane.cs",
-              "url": "https://raw.githubusercontent.com/acidbubbles/vam-utilities/8b5c6c6878de91a11a0eea033bc87eebcdc1cb7a/CameraNearClipPlane.cs",
+              "url": "https://github.com/acidbubbles/vam-utilities/releases/download/v1.0.0/CameraNearClipPlane.cs",
               "hash": {
                 "type": "sha256",
                 "value": "6DF9C523B9C71550F883EDDF5BFB6213731EC535EC33115EE2481E4FF6EA884C"
@@ -164,7 +164,7 @@
           "files": [
             {
               "filename": "E-Motion_AddThisONLY.cslist",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/E-Motion_AddThisONLY.cslist",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/E-Motion_AddThisONLY.cslist",
               "hash": {
                 "type": "sha256",
                 "value": "A721EB4D10C123C9A7CCE89DB9B6DA74A2EC22177C79BC26C2CADC764948729F"
@@ -172,7 +172,7 @@
             },
             {
               "filename": "EmotionEngine.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/EmotionEngine.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/EmotionEngine.cs",
               "hash": {
                 "type": "sha256",
                 "value": "9BD597DF8D85AFBDE898DF610B30150622B44E83FE36557ECE124D99B8B1E000"
@@ -180,7 +180,7 @@
             },
             {
               "filename": "StateMachine.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/StateMachine.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/StateMachine.cs",
               "hash": {
                 "type": "sha256",
                 "value": "42E5A0DE8671C66C5A5E98AB431E63A4B107EEE90A80FFFC5A2D43806CDB0B34"
@@ -188,7 +188,7 @@
             },
             {
               "filename": "TriggerCollide.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/TriggerCollide.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/TriggerCollide.cs",
               "hash": {
                 "type": "sha256",
                 "value": "AC1F4CB88E2A57F5DE809F1A647A3C98D2C0B9822DFC806388BC292175022C29"
@@ -196,7 +196,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LBored.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LBored.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/AttentionStates/EmotionEngine.LBored.cs",
               "hash": {
                 "type": "sha256",
                 "value": "2C82ADC9EA8B76EC48B0B238DEA36727E0386CC61D4BE28C968F21FD99499A53"
@@ -204,7 +204,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LCasual.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LCasual.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/AttentionStates/EmotionEngine.LCasual.cs",
               "hash": {
                 "type": "sha256",
                 "value": "3A1B89F445F2E671BCB5DD0E397AD042C5E731F741A517B9B8AD122E6D911176"
@@ -212,7 +212,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LDayDream.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LDayDream.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/AttentionStates/EmotionEngine.LDayDream.cs",
               "hash": {
                 "type": "sha256",
                 "value": "9A0B462A0CB90EB22F7C6B48EACFA6FD39A52315D96BDAAF0A6697277EBCD7E3"
@@ -220,7 +220,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LFeel.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LFeel.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/AttentionStates/EmotionEngine.LFeel.cs",
               "hash": {
                 "type": "sha256",
                 "value": "2587E226BE96CCD7FF1B845CB94ABCEB0FC89FB7ECE504E1C84006D56AF602E6"
@@ -228,7 +228,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LInquisitive.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LInquisitive.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/AttentionStates/EmotionEngine.LInquisitive.cs",
               "hash": {
                 "type": "sha256",
                 "value": "03AF559EB85097FC6168D9E78AC1E7B3C45070FEF227D7751FF4F3FD303503BD"
@@ -236,7 +236,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LIntense.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LIntense.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/AttentionStates/EmotionEngine.LIntense.cs",
               "hash": {
                 "type": "sha256",
                 "value": "A3DF4EC4DD71D71F8B9B0F906EB314D7C8F6EC3DEA6E0941BE5BF7DA44C05792"
@@ -244,7 +244,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LKissing.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LKissing.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/AttentionStates/EmotionEngine.LKissing.cs",
               "hash": {
                 "type": "sha256",
                 "value": "D42C87BCBEBF82C58D9B3668BFC2997B5C5639448116C7E5041D4869B06127C5"
@@ -252,7 +252,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LPlayful.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LPlayful.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/AttentionStates/EmotionEngine.LPlayful.cs",
               "hash": {
                 "type": "sha256",
                 "value": "795A170DD9AAF186B3D8FC9C892A4DD52C8D36FAFE023015D9580186DB446B0B"
@@ -260,7 +260,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LSex.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LSex.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/AttentionStates/EmotionEngine.LSex.cs",
               "hash": {
                 "type": "sha256",
                 "value": "4027A3A5FEA73432DFB30A36C3048D6F16856C82D01F3B44FDFB36F6B51D2991"
@@ -268,7 +268,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LSucking.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LSucking.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/AttentionStates/EmotionEngine.LSucking.cs",
               "hash": {
                 "type": "sha256",
                 "value": "D781586C8DAF1D70D6B8A56B88A1F1F5816BB7CD20BB7BD65282F99A0AF65E09"
@@ -276,7 +276,7 @@
             },
             {
               "filename": "BrowStates/EmotionEngine.BApprehensive.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/BrowStates/EmotionEngine.BApprehensive.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/BrowStates/EmotionEngine.BApprehensive.cs",
               "hash": {
                 "type": "sha256",
                 "value": "D5F92D373353AA186164D12A50CE766299A50DA22005EA6F385CD0CA69552CDE"
@@ -284,7 +284,7 @@
             },
             {
               "filename": "BrowStates/EmotionEngine.BConcentrate.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/BrowStates/EmotionEngine.BConcentrate.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/BrowStates/EmotionEngine.BConcentrate.cs",
               "hash": {
                 "type": "sha256",
                 "value": "105D178126935022AC43FFA26CC7CF37C206BBF8D06581825419FE2E659078F3"
@@ -292,7 +292,7 @@
             },
             {
               "filename": "BrowStates/EmotionEngine.BLowered.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/BrowStates/EmotionEngine.BLowered.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/BrowStates/EmotionEngine.BLowered.cs",
               "hash": {
                 "type": "sha256",
                 "value": "54807A0A717E4EA676615237194304CDF28E0FC80443695F2D026E1B68BB36B2"
@@ -300,7 +300,7 @@
             },
             {
               "filename": "BrowStates/EmotionEngine.BOneRaise.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/BrowStates/EmotionEngine.BOneRaise.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/BrowStates/EmotionEngine.BOneRaise.cs",
               "hash": {
                 "type": "sha256",
                 "value": "5901125E9C1E4C2C1B44665EA43266060B256CA7C93F47D3D5374A3DE56A93ED"
@@ -308,7 +308,7 @@
             },
             {
               "filename": "BrowStates/EmotionEngine.BRaised.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/BrowStates/EmotionEngine.BRaised.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/BrowStates/EmotionEngine.BRaised.cs",
               "hash": {
                 "type": "sha256",
                 "value": "46494954A888B4E82A760E09A1D32AB2D59485011191CEDF8E2F145661819D69"
@@ -316,7 +316,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EBlink.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EBlink.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/EyeStates/EmotionEngine.EBlink.cs",
               "hash": {
                 "type": "sha256",
                 "value": "F055E04CAE4579434707A38E5CA9C2552AE1C93C722868FD266CEE556727E9A5"
@@ -324,7 +324,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EClosed.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EClosed.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/EyeStates/EmotionEngine.EClosed.cs",
               "hash": {
                 "type": "sha256",
                 "value": "25C94019EE4F5B808A260F79E2F6FF036AAE3C00B65CA1EA8EC59058080A46F0"
@@ -332,7 +332,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EFocus.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EFocus.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/EyeStates/EmotionEngine.EFocus.cs",
               "hash": {
                 "type": "sha256",
                 "value": "89AD6E9FAFF9F38306749B05BD9A9589084B73F7D04F0BD012E72467727BCE84"
@@ -340,7 +340,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EOpen.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EOpen.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/EyeStates/EmotionEngine.EOpen.cs",
               "hash": {
                 "type": "sha256",
                 "value": "1ED74A1D7997F0AD79ED25855F58AC185FE2231C6E7947A94AF50B698B0E5911"
@@ -348,7 +348,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.ESquint.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.ESquint.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/EyeStates/EmotionEngine.ESquint.cs",
               "hash": {
                 "type": "sha256",
                 "value": "2C7C6F892E76C006D17D7418970A0EDE77D92AB6DDB5CF742B90CC21DE32A09B"
@@ -356,7 +356,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EWide.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EWide.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/EyeStates/EmotionEngine.EWide.cs",
               "hash": {
                 "type": "sha256",
                 "value": "0314BCA39FAB60BBC96950E862FA2704D5C84A0CDEF0720422672FEF475E2178"
@@ -364,7 +364,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EWink.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EWink.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/EyeStates/EmotionEngine.EWink.cs",
               "hash": {
                 "type": "sha256",
                 "value": "EB0963932D7264D4D3292D3C825763087EF0625DF901B6C57F6EDE44487E2BF6"
@@ -372,7 +372,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MBigSmile.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MBigSmile.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/MouthStates/EmotionEngine.MBigSmile.cs",
               "hash": {
                 "type": "sha256",
                 "value": "05B668619223217FDCAFD68B8428BE2CFA3F0EAC9B0F69572AF227C72CB3B2E9"
@@ -380,7 +380,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MBiteLip.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MBiteLip.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/MouthStates/EmotionEngine.MBiteLip.cs",
               "hash": {
                 "type": "sha256",
                 "value": "F80EC2085606B0A90536B516B377689CC0407C7FADA76065F7D566BAAF216975"
@@ -388,7 +388,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MClosed.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MClosed.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/MouthStates/EmotionEngine.MClosed.cs",
               "hash": {
                 "type": "sha256",
                 "value": "25F24ABCFAF7F7582E0FD25BED47E0D5700867A64C262E48FBD4FB2F67C737F6"
@@ -396,7 +396,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MJoy.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MJoy.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/MouthStates/EmotionEngine.MJoy.cs",
               "hash": {
                 "type": "sha256",
                 "value": "1E3E450363750EA168A9E041312B5527D4BB6B8D397CDAA7B51B9B8C2FC263E4"
@@ -404,7 +404,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MKiss.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MKiss.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/MouthStates/EmotionEngine.MKiss.cs",
               "hash": {
                 "type": "sha256",
                 "value": "479D94685B87C4558F52DB63CFCE1081BC48855B8963325EC56E86C26FBE9E4D"
@@ -412,7 +412,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MOpen.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MOpen.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/MouthStates/EmotionEngine.MOpen.cs",
               "hash": {
                 "type": "sha256",
                 "value": "140E5DC45F45B5A45CF111C3250511E4C6A2F09F659F60EF854927ABB05D60A9"
@@ -420,7 +420,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MSideways.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MSideways.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/MouthStates/EmotionEngine.MSideways.cs",
               "hash": {
                 "type": "sha256",
                 "value": "94973026B9C4AAB67048AC9F7C2A6A9FEA83EBB453E4AF2C5F64B0DD7783036B"
@@ -428,7 +428,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MSmile.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MSmile.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/MouthStates/EmotionEngine.MSmile.cs",
               "hash": {
                 "type": "sha256",
                 "value": "88070C26FE04BF91438F29E18EA752D976D2CC2A62E686EC424319A391971C49"
@@ -436,7 +436,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MSmirk.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MSmirk.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/MouthStates/EmotionEngine.MSmirk.cs",
               "hash": {
                 "type": "sha256",
                 "value": "4B3CC6C64ED42A16A5E2ACB313D80E952BCA1834C35032695AF641E18BE04AA1"
@@ -444,7 +444,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MSuck.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cd2a2eff6689efffc26b36ca05e586ab7d69fa86/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MSuck.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.4.0/MouthStates/EmotionEngine.MSuck.cs",
               "hash": {
                 "type": "sha256",
                 "value": "5B222094A7A6BAA6B4C6C85C1FA4E39EDA8AD90986CB5120F52C55B3D23589BF"
@@ -739,7 +739,7 @@
           "files": [
             {
               "filename": "E-Motion_AddThisONLY.cslist",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/E-Motion_AddThisONLY.cslist",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/E-Motion_AddThisONLY.cslist",
               "hash": {
                 "type": "sha256",
                 "value": "A721EB4D10C123C9A7CCE89DB9B6DA74A2EC22177C79BC26C2CADC764948729F"
@@ -747,7 +747,7 @@
             },
             {
               "filename": "EmotionEngine.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/EmotionEngine.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/EmotionEngine.cs",
               "hash": {
                 "type": "sha256",
                 "value": "2856A8FAD921FAD2EFB1BDDF9EE4E8C6136F7E4122FC169BE8AF9EE1ED331294"
@@ -755,7 +755,7 @@
             },
             {
               "filename": "StateMachine.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/StateMachine.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/StateMachine.cs",
               "hash": {
                 "type": "sha256",
                 "value": "42E5A0DE8671C66C5A5E98AB431E63A4B107EEE90A80FFFC5A2D43806CDB0B34"
@@ -763,7 +763,7 @@
             },
             {
               "filename": "TriggerCollide.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/TriggerCollide.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/TriggerCollide.cs",
               "hash": {
                 "type": "sha256",
                 "value": "AC1F4CB88E2A57F5DE809F1A647A3C98D2C0B9822DFC806388BC292175022C29"
@@ -771,7 +771,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LBored.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/AttentionStates/EmotionEngine.LBored.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/AttentionStates/EmotionEngine.LBored.cs",
               "hash": {
                 "type": "sha256",
                 "value": "2C82ADC9EA8B76EC48B0B238DEA36727E0386CC61D4BE28C968F21FD99499A53"
@@ -779,7 +779,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LCasual.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/AttentionStates/EmotionEngine.LCasual.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/AttentionStates/EmotionEngine.LCasual.cs",
               "hash": {
                 "type": "sha256",
                 "value": "3A1B89F445F2E671BCB5DD0E397AD042C5E731F741A517B9B8AD122E6D911176"
@@ -787,7 +787,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LDayDream.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/AttentionStates/EmotionEngine.LDayDream.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/AttentionStates/EmotionEngine.LDayDream.cs",
               "hash": {
                 "type": "sha256",
                 "value": "F8703747B6BA9365702C2090112BBE7DDF830C7BBE05879421022D33CB01B298"
@@ -795,7 +795,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LFeel.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/AttentionStates/EmotionEngine.LFeel.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/AttentionStates/EmotionEngine.LFeel.cs",
               "hash": {
                 "type": "sha256",
                 "value": "224CB4E9885DD216D1FB94952BBA9ECB7A41F4D17C476C3E22B28BD04E4FB78E"
@@ -803,7 +803,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LInquisitive.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/AttentionStates/EmotionEngine.LInquisitive.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/AttentionStates/EmotionEngine.LInquisitive.cs",
               "hash": {
                 "type": "sha256",
                 "value": "03AF559EB85097FC6168D9E78AC1E7B3C45070FEF227D7751FF4F3FD303503BD"
@@ -811,7 +811,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LIntense.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/AttentionStates/EmotionEngine.LIntense.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/AttentionStates/EmotionEngine.LIntense.cs",
               "hash": {
                 "type": "sha256",
                 "value": "A3DF4EC4DD71D71F8B9B0F906EB314D7C8F6EC3DEA6E0941BE5BF7DA44C05792"
@@ -819,7 +819,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LKissing.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/AttentionStates/EmotionEngine.LKissing.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/AttentionStates/EmotionEngine.LKissing.cs",
               "hash": {
                 "type": "sha256",
                 "value": "52324F4731705407540664982BEBF3A09BDB91A16632B548FFC8B95DA363CCBD"
@@ -827,7 +827,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LPlayful.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/AttentionStates/EmotionEngine.LPlayful.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/AttentionStates/EmotionEngine.LPlayful.cs",
               "hash": {
                 "type": "sha256",
                 "value": "995187A726132455E3E47FED8AF92359724F1380D9FB61313D6593664EC72D63"
@@ -835,7 +835,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LSex.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/AttentionStates/EmotionEngine.LSex.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/AttentionStates/EmotionEngine.LSex.cs",
               "hash": {
                 "type": "sha256",
                 "value": "7085B4C4B40D89EFA2C561E446238FE9A1DBDBBCA660CF1707C8E9BB9E686F01"
@@ -843,7 +843,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LSucking.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/AttentionStates/EmotionEngine.LSucking.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/AttentionStates/EmotionEngine.LSucking.cs",
               "hash": {
                 "type": "sha256",
                 "value": "D781586C8DAF1D70D6B8A56B88A1F1F5816BB7CD20BB7BD65282F99A0AF65E09"
@@ -851,7 +851,7 @@
             },
             {
               "filename": "BrowStates/EmotionEngine.BApprehensive.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/BrowStates/EmotionEngine.BApprehensive.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/BrowStates/EmotionEngine.BApprehensive.cs",
               "hash": {
                 "type": "sha256",
                 "value": "D5F92D373353AA186164D12A50CE766299A50DA22005EA6F385CD0CA69552CDE"
@@ -859,7 +859,7 @@
             },
             {
               "filename": "BrowStates/EmotionEngine.BConcentrate.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/BrowStates/EmotionEngine.BConcentrate.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/BrowStates/EmotionEngine.BConcentrate.cs",
               "hash": {
                 "type": "sha256",
                 "value": "105D178126935022AC43FFA26CC7CF37C206BBF8D06581825419FE2E659078F3"
@@ -867,7 +867,7 @@
             },
             {
               "filename": "BrowStates/EmotionEngine.BLowered.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/BrowStates/EmotionEngine.BLowered.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/BrowStates/EmotionEngine.BLowered.cs",
               "hash": {
                 "type": "sha256",
                 "value": "54807A0A717E4EA676615237194304CDF28E0FC80443695F2D026E1B68BB36B2"
@@ -875,7 +875,7 @@
             },
             {
               "filename": "BrowStates/EmotionEngine.BOneRaise.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/BrowStates/EmotionEngine.BOneRaise.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/BrowStates/EmotionEngine.BOneRaise.cs",
               "hash": {
                 "type": "sha256",
                 "value": "1B1F9959053E3FBBC13F6324CA549CA8DE53AF7761743E2D473B54FDAA1A6724"
@@ -883,7 +883,7 @@
             },
             {
               "filename": "BrowStates/EmotionEngine.BRaised.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/BrowStates/EmotionEngine.BRaised.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/BrowStates/EmotionEngine.BRaised.cs",
               "hash": {
                 "type": "sha256",
                 "value": "46494954A888B4E82A760E09A1D32AB2D59485011191CEDF8E2F145661819D69"
@@ -891,7 +891,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EBlink.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/EyeStates/EmotionEngine.EBlink.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/EyeStates/EmotionEngine.EBlink.cs",
               "hash": {
                 "type": "sha256",
                 "value": "F055E04CAE4579434707A38E5CA9C2552AE1C93C722868FD266CEE556727E9A5"
@@ -899,7 +899,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EClosed.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/EyeStates/EmotionEngine.EClosed.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/EyeStates/EmotionEngine.EClosed.cs",
               "hash": {
                 "type": "sha256",
                 "value": "25C94019EE4F5B808A260F79E2F6FF036AAE3C00B65CA1EA8EC59058080A46F0"
@@ -907,7 +907,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EFocus.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/EyeStates/EmotionEngine.EFocus.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/EyeStates/EmotionEngine.EFocus.cs",
               "hash": {
                 "type": "sha256",
                 "value": "1382C2DAA78B5A8B0F558C0A94EF089D96A37C4F8FDF805266B86BBACDA5E0CE"
@@ -915,7 +915,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EOpen.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/EyeStates/EmotionEngine.EOpen.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/EyeStates/EmotionEngine.EOpen.cs",
               "hash": {
                 "type": "sha256",
                 "value": "1ED74A1D7997F0AD79ED25855F58AC185FE2231C6E7947A94AF50B698B0E5911"
@@ -923,7 +923,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.ESquint.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/EyeStates/EmotionEngine.ESquint.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/EyeStates/EmotionEngine.ESquint.cs",
               "hash": {
                 "type": "sha256",
                 "value": "2C7C6F892E76C006D17D7418970A0EDE77D92AB6DDB5CF742B90CC21DE32A09B"
@@ -931,7 +931,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EWide.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/EyeStates/EmotionEngine.EWide.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/EyeStates/EmotionEngine.EWide.cs",
               "hash": {
                 "type": "sha256",
                 "value": "0314BCA39FAB60BBC96950E862FA2704D5C84A0CDEF0720422672FEF475E2178"
@@ -939,7 +939,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EWink.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/EyeStates/EmotionEngine.EWink.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/EyeStates/EmotionEngine.EWink.cs",
               "hash": {
                 "type": "sha256",
                 "value": "EB0963932D7264D4D3292D3C825763087EF0625DF901B6C57F6EDE44487E2BF6"
@@ -947,7 +947,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MBigSmile.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/MouthStates/EmotionEngine.MBigSmile.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/MouthStates/EmotionEngine.MBigSmile.cs",
               "hash": {
                 "type": "sha256",
                 "value": "05B668619223217FDCAFD68B8428BE2CFA3F0EAC9B0F69572AF227C72CB3B2E9"
@@ -955,7 +955,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MBiteLip.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/MouthStates/EmotionEngine.MBiteLip.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/MouthStates/EmotionEngine.MBiteLip.cs",
               "hash": {
                 "type": "sha256",
                 "value": "6F3CCD42DB0A790AD2578EC3170A7E4B11DBC0F779630B4C21184AADC32CA816"
@@ -963,7 +963,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MClosed.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/MouthStates/EmotionEngine.MClosed.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/MouthStates/EmotionEngine.MClosed.cs",
               "hash": {
                 "type": "sha256",
                 "value": "25F24ABCFAF7F7582E0FD25BED47E0D5700867A64C262E48FBD4FB2F67C737F6"
@@ -971,7 +971,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MJoy.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/MouthStates/EmotionEngine.MJoy.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/MouthStates/EmotionEngine.MJoy.cs",
               "hash": {
                 "type": "sha256",
                 "value": "0E19B589862D6759F1A5DE2E818DA5E87D2ED63E43B3860191D74FEDBDADEC83"
@@ -979,7 +979,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MKiss.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/MouthStates/EmotionEngine.MKiss.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/MouthStates/EmotionEngine.MKiss.cs",
               "hash": {
                 "type": "sha256",
                 "value": "C142237EC567880EBC2E8C73EB86EAC774730BC5F2983B9E888A0108B61EEA9B"
@@ -987,7 +987,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MOpen.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/MouthStates/EmotionEngine.MOpen.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/MouthStates/EmotionEngine.MOpen.cs",
               "hash": {
                 "type": "sha256",
                 "value": "2F87A4670CBABFB5402EC7AE6295CDAC03D4D5D064B42FAF9EE5BBBA1B9E2109"
@@ -995,7 +995,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MSideways.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/MouthStates/EmotionEngine.MSideways.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/MouthStates/EmotionEngine.MSideways.cs",
               "hash": {
                 "type": "sha256",
                 "value": "94973026B9C4AAB67048AC9F7C2A6A9FEA83EBB453E4AF2C5F64B0DD7783036B"
@@ -1003,7 +1003,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MSmile.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/MouthStates/EmotionEngine.MSmile.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/MouthStates/EmotionEngine.MSmile.cs",
               "hash": {
                 "type": "sha256",
                 "value": "88070C26FE04BF91438F29E18EA752D976D2CC2A62E686EC424319A391971C49"
@@ -1011,7 +1011,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MSmirk.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/MouthStates/EmotionEngine.MSmirk.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/MouthStates/EmotionEngine.MSmirk.cs",
               "hash": {
                 "type": "sha256",
                 "value": "6D1999CAFA83EAE486E0C688371C0974601B634C0119FFB9432FD025C277EFBB"
@@ -1019,7 +1019,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MSuck.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/cfdf55298486a4d0fcb1070e57d69540261277b1/Scripts/e-motion/1.3.0/MouthStates/EmotionEngine.MSuck.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.3.0/MouthStates/EmotionEngine.MSuck.cs",
               "hash": {
                 "type": "sha256",
                 "value": "2B9B99515274089692B7D740977AE13C3B69F84A1ECD46904B1DC269C0691C74"
@@ -1041,7 +1041,7 @@
           "files": [
             {
               "filename": "E-Motion_AddThisONLY.cslist",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/E-Motion_AddThisONLY.cslist",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/E-Motion_AddThisONLY.cslist",
               "hash": {
                 "type": "sha256",
                 "value": "B0C9DFFD03EEA65CC9689D3903D221C8E9CBA26D92AA20B86CA9E6F4731EA587"
@@ -1049,7 +1049,7 @@
             },
             {
               "filename": "EmotionEngine.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/EmotionEngine.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/EmotionEngine.cs",
               "hash": {
                 "type": "sha256",
                 "value": "B1649EA617DE7389F27193E6F0A0B6BB01530E28F89CCA825DBAF4E6D0F97B7A"
@@ -1057,7 +1057,7 @@
             },
             {
               "filename": "StateMachine.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/StateMachine.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/StateMachine.cs",
               "hash": {
                 "type": "sha256",
                 "value": "42E5A0DE8671C66C5A5E98AB431E63A4B107EEE90A80FFFC5A2D43806CDB0B34"
@@ -1065,7 +1065,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LBored.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LBored.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/AttentionStates/EmotionEngine.LBored.cs",
               "hash": {
                 "type": "sha256",
                 "value": "EFE0298A70B7BB30D5EAFD4967B69B79620D8F670AD705A40AFBFB4916D69BBA"
@@ -1073,7 +1073,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LCasual.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LCasual.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/AttentionStates/EmotionEngine.LCasual.cs",
               "hash": {
                 "type": "sha256",
                 "value": "4231D42C2174F81CD46F9887BAD5388B9B3BAD604E857D61FBE2D200E681C083"
@@ -1081,7 +1081,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LDayDream.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LDayDream.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/AttentionStates/EmotionEngine.LDayDream.cs",
               "hash": {
                 "type": "sha256",
                 "value": "08A1B224BB61CA8F27CF9E8FC1951A3BD72520589F377C2B3B68BC6B68F029F8"
@@ -1089,7 +1089,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LFeel.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LFeel.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/AttentionStates/EmotionEngine.LFeel.cs",
               "hash": {
                 "type": "sha256",
                 "value": "44A550A65430BFCA2ACD92FEC286722DA918603B6A9DD9DF0E16876EBF3445DC"
@@ -1097,7 +1097,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LInquisitive.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LInquisitive.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/AttentionStates/EmotionEngine.LInquisitive.cs",
               "hash": {
                 "type": "sha256",
                 "value": "4EB9348C4B03626491DE37BA209B5B8CF0A58C5DA3FD158F8DA40C4D3D29DF1B"
@@ -1105,7 +1105,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LIntense.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LIntense.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/AttentionStates/EmotionEngine.LIntense.cs",
               "hash": {
                 "type": "sha256",
                 "value": "554C77127AD808908A04C0E3BEC26B7373F201E80EBA320691D93649080FAB34"
@@ -1113,7 +1113,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LKissing.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LKissing.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/AttentionStates/EmotionEngine.LKissing.cs",
               "hash": {
                 "type": "sha256",
                 "value": "E0753A233507C77EA807283D619DD8416FD5CB4E05E2E3E25DEE3C39EBA616E7"
@@ -1121,7 +1121,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LPlayful.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LPlayful.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/AttentionStates/EmotionEngine.LPlayful.cs",
               "hash": {
                 "type": "sha256",
                 "value": "684716BAB9CACEA4A93AAAB584AEC140DB49D17A11B79F017D2751306B3193E3"
@@ -1129,7 +1129,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LSex.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LSex.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/AttentionStates/EmotionEngine.LSex.cs",
               "hash": {
                 "type": "sha256",
                 "value": "3D8F8BF06579486A2B948D7F386A40C49983ABA087154F118A6021BC59712840"
@@ -1137,7 +1137,7 @@
             },
             {
               "filename": "AttentionStates/EmotionEngine.LSucking.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/AttentionStates/EmotionEngine.LSucking.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/AttentionStates/EmotionEngine.LSucking.cs",
               "hash": {
                 "type": "sha256",
                 "value": "91FE1CE6ACE940FFB9316727B7CB32A4712ECE6EE76F9136D7FBE337B1B24B58"
@@ -1145,7 +1145,7 @@
             },
             {
               "filename": "BrowStates/EmotionEngine.BApprehensive.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/BrowStates/EmotionEngine.BApprehensive.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/BrowStates/EmotionEngine.BApprehensive.cs",
               "hash": {
                 "type": "sha256",
                 "value": "A91CCD7E6368B96AA86F824D9EEDB1435A47A67AAA4BAD95E097A2E91599BACA"
@@ -1153,7 +1153,7 @@
             },
             {
               "filename": "BrowStates/EmotionEngine.BConcentrate.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/BrowStates/EmotionEngine.BConcentrate.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/BrowStates/EmotionEngine.BConcentrate.cs",
               "hash": {
                 "type": "sha256",
                 "value": "A1E744246F89FB139E10FC0438A529A7F2294B2A27F2D63D96CB61ABF2BBA196"
@@ -1161,7 +1161,7 @@
             },
             {
               "filename": "BrowStates/EmotionEngine.BLowered.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/BrowStates/EmotionEngine.BLowered.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/BrowStates/EmotionEngine.BLowered.cs",
               "hash": {
                 "type": "sha256",
                 "value": "2061AE3CCD717DC698F2B20012FF4070C7111A33B4269479EEC098C97388A514"
@@ -1169,7 +1169,7 @@
             },
             {
               "filename": "BrowStates/EmotionEngine.BOneRaise.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/BrowStates/EmotionEngine.BOneRaise.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/BrowStates/EmotionEngine.BOneRaise.cs",
               "hash": {
                 "type": "sha256",
                 "value": "D2BBDE788F8B8E3CC72F6379D2EEB91441B4BEA8C601F8EBAECD292E52CC5206"
@@ -1177,7 +1177,7 @@
             },
             {
               "filename": "BrowStates/EmotionEngine.BRaised.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/BrowStates/EmotionEngine.BRaised.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/BrowStates/EmotionEngine.BRaised.cs",
               "hash": {
                 "type": "sha256",
                 "value": "3F5B49F481F5E25362F74C08E28F07C377C2C6F56C39A1362D8745581C0447C5"
@@ -1185,7 +1185,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EBlink.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EBlink.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/EyeStates/EmotionEngine.EBlink.cs",
               "hash": {
                 "type": "sha256",
                 "value": "11C31AC9C5A91CC68A48C7491CA0E3F6CECCFF1C9DF6BF268099D332E0406041"
@@ -1193,7 +1193,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EClosed.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EClosed.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/EyeStates/EmotionEngine.EClosed.cs",
               "hash": {
                 "type": "sha256",
                 "value": "9D94BC7549463BA87C3F6ED18D47040732EDFABC0E4C1C29E4AC73AAF135A13D"
@@ -1201,7 +1201,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EFocus.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EFocus.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/EyeStates/EmotionEngine.EFocus.cs",
               "hash": {
                 "type": "sha256",
                 "value": "5DA99046FB682350B6BAC197423568599C6796FDBE401C7E30EE286A988211AC"
@@ -1209,7 +1209,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EOpen.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EOpen.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/EyeStates/EmotionEngine.EOpen.cs",
               "hash": {
                 "type": "sha256",
                 "value": "5D87D4BD75769FA321E98F2DB52063459D2C09649E99654CC50153A64FE11139"
@@ -1217,7 +1217,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.ESquint.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.ESquint.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/EyeStates/EmotionEngine.ESquint.cs",
               "hash": {
                 "type": "sha256",
                 "value": "D1B2599F2ED7C20C28CE9C815C378F19FCA51646B34D0D39F38F20F8018DE667"
@@ -1225,7 +1225,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EWide.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EWide.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/EyeStates/EmotionEngine.EWide.cs",
               "hash": {
                 "type": "sha256",
                 "value": "E35C3B620D62CEAE8905E36E32FAF2134ED0DDEF312827D517F0A55794DD8507"
@@ -1233,7 +1233,7 @@
             },
             {
               "filename": "EyeStates/EmotionEngine.EWink.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/EyeStates/EmotionEngine.EWink.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/EyeStates/EmotionEngine.EWink.cs",
               "hash": {
                 "type": "sha256",
                 "value": "AEC5CDD2A862F165C2D2B6FF295D76DB5495429DB9BA58A7D9C8902BC58C732D"
@@ -1241,7 +1241,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MBigSmile.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MBigSmile.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/MouthStates/EmotionEngine.MBigSmile.cs",
               "hash": {
                 "type": "sha256",
                 "value": "6BF3D2F33101143D0983C73D8FEF9ADABD63AF96E697A629CBE31699FD87A8AD"
@@ -1249,7 +1249,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MBiteLip.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MBiteLip.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/MouthStates/EmotionEngine.MBiteLip.cs",
               "hash": {
                 "type": "sha256",
                 "value": "A97C17B0D642CBD7E3DF230D1A04D112F5FECAC4F4F0E9B0E952A292B9A0FCA3"
@@ -1257,7 +1257,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MClosed.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MClosed.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/MouthStates/EmotionEngine.MClosed.cs",
               "hash": {
                 "type": "sha256",
                 "value": "D2476FDB378786F220122B9E8ADE1304B2C39C6E70362A0B5249B6DE09A65D45"
@@ -1265,7 +1265,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MJoy.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MJoy.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/MouthStates/EmotionEngine.MJoy.cs",
               "hash": {
                 "type": "sha256",
                 "value": "E4C720FCB06C3DA41F13959FDB90FEF70CC0ECDD680A71F841F720D6C885F586"
@@ -1273,7 +1273,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MKiss.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MKiss.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/MouthStates/EmotionEngine.MKiss.cs",
               "hash": {
                 "type": "sha256",
                 "value": "0CA1CCFD33E93EF9AF60F8168481A750F72924CD59A3F052F42D92D27F5E8537"
@@ -1281,7 +1281,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MOpen.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MOpen.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/MouthStates/EmotionEngine.MOpen.cs",
               "hash": {
                 "type": "sha256",
                 "value": "E51D9D574AFF08B8C4ACACFBBC7967B484ABBB54E7C9161823686D0F6A2A91A3"
@@ -1289,7 +1289,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MSideways.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MSideways.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/MouthStates/EmotionEngine.MSideways.cs",
               "hash": {
                 "type": "sha256",
                 "value": "2D0A3DB62EF643972855429DE3343A95BC5F8A794EE6BF7169ACF8D85C4AF96B"
@@ -1297,7 +1297,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MSmile.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MSmile.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/MouthStates/EmotionEngine.MSmile.cs",
               "hash": {
                 "type": "sha256",
                 "value": "EC48E67846CCF6EE4E2D91A33D5B7A8D104DB8F6A4E236C45843DA685614C745"
@@ -1305,7 +1305,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MSmirk.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MSmirk.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/MouthStates/EmotionEngine.MSmirk.cs",
               "hash": {
                 "type": "sha256",
                 "value": "F399FD60E74A42B9FD9E2248076026FA378F6C3DC4F10D5D3F1EEAF0C5E1EF12"
@@ -1313,7 +1313,7 @@
             },
             {
               "filename": "MouthStates/EmotionEngine.MSuck.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/96934e3d0720b44906864bd9a7ea9afcc2513745/Scripts/VRAdultFun/e-motion/MouthStates/EmotionEngine.MSuck.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/VRAdultFun/e-motion/1.1.1/MouthStates/EmotionEngine.MSuck.cs",
               "hash": {
                 "type": "sha256",
                 "value": "515B346F30146E471D3271FF7D75C22C7228F08DF5CFD1ED1B4EE0620C861C42"
@@ -1338,7 +1338,7 @@
           "files": [
             {
               "filename": "ExpressionRandomizer_1.7.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/5e7b73907ede699f544a2c224365131811c57fdd/Scripts/Extraltodeus/expression-randomizer/1.7.1/ExpressionRandomizer_1.7.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/Extraltodeus/expression-randomizer/1.7.1/ExpressionRandomizer_1.7.cs",
               "hash": {
                 "type": "sha256",
                 "value": "F312A9CC6379455BC9B25E8D1B500C87832F144A918CA8616C3695164FCA91DA"
@@ -1352,7 +1352,7 @@
           "files": [
             {
               "filename": "ExpressionRandomizer_1.7.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/4bb0780b4358ebf35d13f43257760c03c2027ff3/Scripts/expression-randomizer/1.7.0/ExpressionRandomizer_1.7.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/Extraltodeus/expression-randomizer/1.7.0/ExpressionRandomizer_1.7.cs",
               "hash": {
                 "type": "sha256",
                 "value": "9FA7C42FB6220BE7B7FB1096387A77E9AB0EA17910B5B561EB15929CFF93BAFC"
@@ -1366,7 +1366,7 @@
           "files": [
             {
               "filename": "ExpressionRandomizer_1.6.cs",
-              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/837877524e2dd568bca660f3d5d833332a4e3335/Scripts/expression-randomizer/1.6.0/ExpressionRandomizer_1.6.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/Extraltodeus/expression-randomizer/1.6.0/ExpressionRandomizer_1.6.cs",
               "hash": {
                 "type": "sha256",
                 "value": "158EBAA292BC8CAF7ABAAED242B080A3C606BE522AE2659024D82BD282F47693"
@@ -1381,7 +1381,7 @@
           "files": [
             {
               "filename": "ExpressionRandomizer - 1.5.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/01db3842b0ca4cc91e9c8cb896bb59febf4c0309/Scripts/Extraltodeus/expression-randomizer/ExpressionRandomizer - 1.5.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/Extraltodeus/expression-randomizer/1.5.0/ExpressionRandomizer - 1.5.cs",
               "hash": {
                 "type": "sha256",
                 "value": "F6CEF7D7A3769B35C05BF709C831049F1B44FF2C94CF8A824C571CB62899DEA7"
@@ -1396,7 +1396,7 @@
           "files": [
             {
               "filename": "ExpressionRandomizer.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/f82ce2ff4eb36e02b46c1930c60ced05d52ba535/Scripts/Extraltodeus/expression-randomizer/ExpressionRandomizer.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/Extraltodeus/expression-randomizer/1.1.0/ExpressionRandomizer.cs",
               "hash": {
                 "type": "sha256",
                 "value": "EE70FCC590A7E727CEF5BA02A8CF721FF440F25B4A1EDF37783D772EDAF7AA25"
@@ -1410,7 +1410,7 @@
           "files": [
             {
               "filename": "ExpressionRandomizer.cs",
-              "url": "https://github.com/vam-community/vam-packages/raw/a0910d6990b000969880a5f84985f42e8051afe8/Scripts/Extraltodeus/expression-randomizer/ExpressionRandomizer.cs",
+              "url": "https://raw.githubusercontent.com/vam-community/vam-packages/master/Custom/Scripts/Extraltodeus/expression-randomizer/1.0.0/ExpressionRandomizer.cs",
               "hash": {
                 "type": "sha256",
                 "value": "4DF5EA9AB80F850E9884A2AA4010C1486C9F80002DFC7DF4CB5EFDE581AE76C2"
@@ -1434,7 +1434,7 @@
           "files": [
             {
               "filename": "ForwardUnityLogsToSceneLogs.cs",
-              "url": "https://raw.githubusercontent.com/acidbubbles/vam-utilities/8b5c6c6878de91a11a0eea033bc87eebcdc1cb7a/ForwardUnityLogsToSceneLogs.cs",
+              "url": "https://github.com/acidbubbles/vam-utilities/releases/download/v1.0.0/ForwardUnityLogsToSceneLogs.cs",
               "hash": {
                 "type": "sha256",
                 "value": "89C107767491B80CD09EC3BABA6565BE01D02E4EA4A0BC84D7FFC0A37099C3E8"
@@ -2113,7 +2113,7 @@
           "files": [
             {
               "filename": "TimeScaleController.cs",
-              "url": "https://raw.githubusercontent.com/acidbubbles/vam-utilities/8b5c6c6878de91a11a0eea033bc87eebcdc1cb7a/TimeScaleController.cs",
+              "url": "https://github.com/acidbubbles/vam-utilities/releases/download/v1.0.0/TimeScaleController.cs",
               "hash": {
                 "type": "sha256",
                 "value": "BB44415FA0AD47180989D2260A067FC75EDF63C2AEBBC53EE7F9F42957DF354E"
