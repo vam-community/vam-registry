@@ -22,7 +22,7 @@ Technically you can also use another host, but your scripts will then be marked 
 
 ## Getting the download url to your script file
 
-Note that we _strongly_ recommend you don't reference `master` directly, since the file may either change, or move in your repository. You can either make a [release](https://help.github.com/en/articles/creating-releases) in your GitHub repository, or get a direct link to the raw file.
+Note that we _strongly_ recommend you don't reference your `master` working file directly, since the file may change. You can either make a [release](https://help.github.com/en/articles/creating-releases) in your GitHub repository (the preferred option), or keep a copy of the file in a version folder (e.g. `publish/1.0.0/My Script.cs`).
 
 To create a direct link from releases:
 
@@ -32,9 +32,8 @@ To create a direct link from releases:
 
 To create a direct link to the raw files:
 
-1. [Select your commit, and browse files](https://stackoverflow.com/questions/4004860/link-to-a-specific-current-revision-on-github)
-2. Select the file you want to include
-3. Find the `Raw` button; right-click on it, and select `copy link address`
+1. Select the file you want to include on GitHub
+2. Find the `Raw` button; right-click on it, and select `copy link address`
 
 ## Adding your script to the registry
 
@@ -71,7 +70,7 @@ Clone your fork
 Publish your script
 
     > cd C:\...\VaM
-    > party publish --package-name time-scale-controller --package-version 1.0.0 --registry "C:\Dev\vam-registry\v1\index.json" "https://github.com/acidbubbles/vam-utilities/raw/8b5c6c6878de91a11a0eea033bc87eebcdc1cb7a/TimeScaleController.cs"
+    > party publish --package-name time-scale-controller --package-version 1.0.0 --registry "C:\Dev\vam-registry\v1\index.json" "https://github.com/acidbubbles/vam-utilities/releases/download/v1.0.0/TimeScaleController.cs"
     Release Notes: Fixed some bugs
     Looks like a new package in the registry! Please provide some information about this new package, or press CTRL+C if you want to abort.
     Author Name: Acidbubbles
