@@ -1476,6 +1476,22 @@
       "repository": "https://github.com/acidbubbles/vam-improved-pov",
       "versions": [
         {
+          "version": "2.0.5",
+          "created": "2019-11-09",
+          "downloadUrl": "https://github.com/acidbubbles/vam-improved-pov/releases/tag/v2.0.5",
+          "notes": "Fix for vam 1.18.1.3",
+          "files": [
+            {
+              "filename": "ImprovedPoV.cs",
+              "url": "https://github.com/acidbubbles/vam-improved-pov/releases/download/v2.0.5/ImprovedPoV.cs",
+              "hash": {
+                "type": "sha256",
+                "value": "50CEF987821DAD9066C38641E8B66305F79C1FBB7883409D2797D30F41DB8131"
+              }
+            }
+          ]
+        },
+        {
           "version": "2.0.4",
           "created": "2019-07-31",
           "files": [
