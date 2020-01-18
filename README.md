@@ -1,5 +1,7 @@
 # Virt-A-Mate Scripts Registry
 
+**This project has been deprecated in favor of Virt-A-Mate 1.19 package support**
+
 [![Build Status](https://travis-ci.org/vam-community/vam-registry.svg?branch=master)](https://travis-ci.org/vam-community/vam-registry)
 
 This is where the [party](https://github.com/vam-community/vam-party) package manager will get scripts from.
